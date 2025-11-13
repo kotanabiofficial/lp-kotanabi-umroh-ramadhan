@@ -14,7 +14,7 @@ const CallToAction: React.FC = () => {
           Jangan Tunda Lagi Panggilan ke Baitullah
         </h2>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
-          Program Umroh Ramadhan adalah paket yang paling cepat terisi. Amankan seat Anda sekarang juga sebelum kehabisan. Wujudkan Ramadhan penuh berkah dalam hidup Anda.
+          Program Umroh Itikaf Ramadhan adalah paket yang paling cepat terisi. Amankan seat Anda sekarang juga sebelum kehabisan. Wujudkan bulan Ramadhan penuh berkah dalam hidup Anda.
         </p>
         <div className="bg-white/90 text-dark p-8 md:p-12 rounded-lg shadow-2xl max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-secondary font-serif">Dapatkan Informasi Lengkap & Promo Spesial!</h3>
