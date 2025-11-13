@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
 
       <div className="relative z-20 text-center px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4 animate-fade-in-down">
-          Wujudkan Impian Umroh Ramadhan 2026
+          Wujudkan Impian Umroh Penuh Berkah di Bulan Ramadhan 2026
         </h1>
         <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-sans animate-fade-in-up">
           Raih Keberkahan Malam Lailatul Qadar & Idul Fitri di Tanah Suci. Sebuah perjalanan spiritual yang tak terlupakan menanti Anda.
