@@ -12,7 +12,7 @@ const TrustBadges: React.FC = () => {
     <div className="bg-white py-8">
       <div className="container mx-auto px-6">
         <h3 className="text-center text-gray-600 font-semibold mb-6">
-          Travel Resmi Terdaftar & Berizin
+          Bersama Mitra Travel Berizin Resmi &amp; Amanah
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
           {logos.map((logo) => (

@@ -8,13 +8,13 @@ const CallToAction: React.FC = () => {
 
   return (
     <section id="kontak" className="relative py-20 bg-secondary text-white">
-      <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://picsum.photos/seed/cta-bg/1920/1080')" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/6967/Konsekuensi_haji_yang_batal.jpg')" }}></div>
       <div className="relative container mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-4">
           Jangan Tunda Lagi Panggilan ke Baitullah
         </h2>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
-          Program Umroh Ramadhan adalah paket yang paling cepat terisi. Amankan tempat Anda sekarang juga sebelum kehabisan. Wujudkan Ramadhan terindah dalam hidup Anda.
+          Program Umroh Ramadhan adalah paket yang paling cepat terisi. Amankan seat Anda sekarang juga sebelum kehabisan. Wujudkan Ramadhan penuh berkah dalam hidup Anda.
         </p>
         <div className="bg-white/90 text-dark p-8 md:p-12 rounded-lg shadow-2xl max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-secondary font-serif">Dapatkan Informasi Lengkap & Promo Spesial!</h3>

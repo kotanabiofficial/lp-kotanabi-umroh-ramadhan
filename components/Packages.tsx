@@ -5,28 +5,31 @@ import PackageCard from './PackageCard';
 const Packages: React.FC = () => {
   const packages = [
     {
-      name: 'Awal Ramadhan',
-      duration: '12 Hari',
-      price: 'Mulai dari Rp 35 Jt',
-      features: ['Penerbangan Direct', 'Hotel Bintang 5 (Mekkah & Madinah)', 'Ibadah Awal Ramadhan', 'City Tour Mekkah & Madinah'],
+      name: 'Umroh Awal Ramadhan',
+      duration: '9 Hari',
+      price: 'Mulai dari Rp28 Jt-an',
+      features: ['Penerbangan Direct by Oman Air', 'Hotel Bintang 3 (Mekah & Madinah)', 'Ibadah Awal Ramadhan', 'Include Sahur dan Buka'],
       isPopular: false,
-      image: 'https://picsum.photos/seed/awal/400/300'
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10075/mutiarasunnah-easy-umroh-awal-ramadhan-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Mutiara Sunnah*. Mohon informasi lengkapnya.'
     },
     {
-      name: 'Full Ramadhan & Idul Fitri',
-      duration: '30 Hari',
-      price: 'Mulai dari Rp 75 Jt',
-      features: ['Merasakan Idul Fitri di Haramain', 'Pahala Haji Bersama Nabi', 'Kesempatan Itikaf 10 Malam Terakhir', 'Hotel Bintang 5 Dekat Masjid'],
+      name: 'Umroh I\'tikaf 10 Malam Terakhir)',
+      duration: '16 Hari',
+      price: 'Mulai dari Rp36 Jt-an',
+      features: ['Fokus Ibadah 10 Malam Terakhir', 'Berburu Malam Lailatul Qadar', 'Suasana Itikaf yang Khusyuk', 'Langsung Umroh dan I\'tikaf'],
       isPopular: true,
-      image: 'https://picsum.photos/seed/full/400/300'
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10074/mutiarasunnah-umroh-itikaf-ramadhan-9-maret-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan 2026 by Mutiara Sunnah*. Mohon informasi lengkapnya.'
     },
     {
-      name: 'Lailatul Qadar (10 Malam Terakhir)',
+      name: 'Umroh I\'tikaf Madinah',
       duration: '15 Hari',
-      price: 'Mulai dari Rp 55 Jt',
-      features: ['Fokus Ibadah 10 Malam Terakhir', 'Berburu Malam Lailatul Qadar', 'Suasana Itikaf yang Khusyuk', 'Hotel Bintang 5 Dekat Masjid'],
+      price: 'Mulai dari Rp38 Jt-an',
+      features: ['Meraih Lailatul Qadr di Madinah', 'Kesempatan Itikaf 10 Malam Terakhir', 'Hotel Bintang 3 Nyaman', 'City Tour Mekah & Madinah'],
       isPopular: false,
-      image: 'https://picsum.photos/seed/akhir/400/300'
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10077/nakhla-saqeefa-umroh-itikaf-ramadhan-madinah-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan Madinah by Nakhla*. Mohon informasi lengkapnya.'
     }
   ];
 

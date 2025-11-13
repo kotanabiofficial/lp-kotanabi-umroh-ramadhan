@@ -3,8 +3,8 @@ import React from 'react';
 import CountdownTimer from './CountdownTimer';
 
 const Hero: React.FC = () => {
-  // Target date for Ramadhan 2026 (approximate, e.g., Feb 27, 2026)
-  const targetDate = new Date('2026-02-27T00:00:00');
+  // Target date for Ramadhan 2026 (approximate, e.g., Feb 18, 2026)
+  const targetDate = new Date('2026-02-18T00:00:00');
 
   return (
     <section className="relative h-screen flex items-center justify-center text-white font-serif">

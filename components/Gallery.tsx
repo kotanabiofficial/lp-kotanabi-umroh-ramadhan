@@ -3,12 +3,12 @@ import React from 'react';
 
 const Gallery: React.FC = () => {
   const images = [
-    'https://picsum.photos/seed/gallery1/600/400',
-    'https://picsum.photos/seed/gallery2/600/400',
-    'https://picsum.photos/seed/gallery3/600/400',
-    'https://picsum.photos/seed/gallery4/600/400',
-    'https://picsum.photos/seed/gallery5/600/400',
-    'https://picsum.photos/seed/gallery6/600/400'
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/4393/IMG-20230301-WA0099.jpg',
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/4358/IMG-20230907-WA0070.jpg',
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/2738/1659985328776.jpg',
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/2753/1666250021398.jpg',
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10085/prosesi_umroh_grup_20_juli_2025.webp',
+    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10086/prosesi_umroh_grup_28_agustus_2025.webp'
   ];
 
   return (
