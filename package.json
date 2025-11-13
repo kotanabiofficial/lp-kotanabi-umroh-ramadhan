@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A high-converting landing page for the Umroh Ramadhan 2026 travel package, designed to guide users through the sales funnel from awareness to decision.",
-  "homepage": "https://kotanabiofficial.github.io/lp-kotanabi-umroh-ramadhan",
+  "homepage": "https://lp.kotanabi.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
