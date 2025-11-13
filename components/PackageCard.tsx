@@ -23,7 +23,7 @@ const PackageCard: React.FC<PackageCardProps> = ({ name, duration, price, featur
           PROGRAM FAVORIT
         </div>
       )}
-      <img src={image} alt={`Paket Umroh ${name}`} className="w-full h-92 object-cover object-top" />
+      <img src={image} alt={`Paket Umroh ${name}`} className="w-full h-72 object-cover object-top" />
       <div className="p-6">
         <h3 className="text-2xl font-bold font-serif text-secondary">{name}</h3>
         <p className="text-gray-500 mb-4">{duration}</p>
