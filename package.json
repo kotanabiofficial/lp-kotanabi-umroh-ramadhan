@@ -1,11 +1,13 @@
 {
   "name": "umroh-ramadhan-2026",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "A high-converting landing page for the Umroh Ramadhan 2026 travel package, designed to guide users through the sales funnel from awareness to decision.",
+  "homepage": "https://kotanabiofficial.github.io/lp-kotanabi-umroh-ramadhan",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/lp-kotanabi-umroh-ramadhan/",
     "preview": "vite preview"
   },
   "dependencies": {
