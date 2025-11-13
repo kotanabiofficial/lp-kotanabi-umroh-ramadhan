@@ -36,7 +36,7 @@ const PackageCard: React.FC<PackageCardProps> = ({ name, duration, price, featur
             </li>
           ))}
         </ul>
-        <a href={whatsappUrl} className="w-full block text-center bg-secondary hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+        <a href={whatsappUrl} className="ctawa w-full block text-center bg-secondary hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
           Konsultasi via WhatsApp
         </a>
       </div>

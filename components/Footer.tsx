@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           <h3 className="text-xl font-bold font-serif text-white mb-4">Hubungi Kami</h3>
           <ul className="space-y-2">
             <li><a href="tel:+628561500883" className="hover:text-primary">Telp: (021) 0856-1500-883</a></li>
-            <li><a href="https://wa.me/628561500883" className="hover:text-primary">WhatsApp: 0856-1500-883</a></li>
+            <li><a href="https://wa.me/628561500883" className="ctawa hover:text-primary">WhatsApp: 0856-1500-883</a></li>
             <li><a href="mailto:info@kotanabi.com" className="hover:text-primary">Email: info@kotanabi.com</a></li>
           </ul>
         </div>

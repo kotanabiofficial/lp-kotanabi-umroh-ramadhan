@@ -3,6 +3,10 @@ import React from 'react';
 import PackageCard from './PackageCard';
 
 const Packages: React.FC = () => {
+  const phoneNumber = "628561500883";
+  const message = "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya.";
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
   const packages = [
     {
       name: 'Umroh Awal Ramadhan',
@@ -14,7 +18,7 @@ const Packages: React.FC = () => {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Mutiara Sunnah*. Mohon informasi lengkapnya.'
     },
     {
-      name: 'Umroh I\'tikaf 10 Malam Terakhir)',
+      name: 'Umroh I\'tikaf 10 Malam Terakhir',
       duration: '16 Hari',
       price: 'Mulai dari Rp36 Jt-an',
       features: ['Fokus Ibadah 10 Malam Terakhir', 'Berburu Malam Lailatul Qadar', 'Suasana Itikaf yang Khusyuk', 'Langsung Umroh dan I\'tikaf'],
@@ -47,6 +51,9 @@ const Packages: React.FC = () => {
             <PackageCard key={index} {...pkg} />
           ))}
         </div>
+      </div>
+      <div class="relative z-20 text-center px-4 mt-12">
+        <a href={whatsappUrl} class="ctawa bg-primary hover:bg-yellow-600 text-white font-bold py-4 px-10 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-xl">Lihat Paket Lain</a>
       </div>
     </section>
   );
