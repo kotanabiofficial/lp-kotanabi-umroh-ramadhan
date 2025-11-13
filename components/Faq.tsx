@@ -37,15 +37,15 @@ const Faq: React.FC = () => {
     },
     {
       question: "Apakah harga sudah termasuk semua biaya?",
-      answer: "Betul, harga yang tertera adalah paket lengkap (all-in) yang mencakup tiket pesawat PP, visa umroh, akomodasi hotel bintang 5, makan sahur & iftar, transportasi bus AC, mutowwif/pembimbing, dan asuransi perjalanan. Anda hanya perlu menyiapkan untuk pengeluaran pribadi seperti oleh-oleh."
+      answer: "Betul, harga yang tertera adalah paket lengkap (all-in) yang mencakup tiket pesawat PP, v*s* umroh, akomodasi hotel bintang 5, makan sahur & iftar, transportasi bus AC, mutowwif/pembimbing, dan asuransi perjalanan. Anda hanya perlu menyiapkan untuk pengeluaran pribadi seperti oleh-oleh."
     },
     {
         question: "Apa saja persyaratan dokumen yang diperlukan?",
         answer: "Persyaratan utama sangat standar: Paspor yang masih berlaku minimal 7 bulan, KTP, Kartu Keluarga, buku nikah (bagi suami istri), dan pas foto. Tidak perlu khawatir, tim kami akan memberikan checklist lengkap dan membantu Anda di setiap tahapannya."
     },
     {
-      question: "Bagaimana dengan proses pengurusan visa? Apakah rumit?",
-      answer: "Sama sekali tidak. Anda hanya perlu menyiapkan dokumen, dan seluruh proses pengajuan visa akan diurus sepenuhnya oleh tim kami. Sebagai travel berizin resmi, kami memastikan prosesnya lancar dan bebas dari rasa khawatir untuk Anda."
+      question: "Bagaimana dengan proses pengurusan v*s*? Apakah rumit?",
+      answer: "Sama sekali tidak. Anda hanya perlu menyiapkan dokumen, dan seluruh proses pengajuan v*s* akan diurus sepenuhnya oleh tim kami. Sebagai travel berizin resmi, kami memastikan prosesnya lancar dan bebas dari rasa khawatir untuk Anda."
     },
     {
         question: "Seberapa jauh lokasi hotel dari Masjidil Haram dan Nabawi?",
