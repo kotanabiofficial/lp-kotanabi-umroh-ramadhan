@@ -39,7 +39,7 @@ const Packages: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">Pilih Paket Perjalanan Spiritual Anda</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Setiap paket dirancang untuk memberikan pengalaman Ramadhan terbaik. Kursi sangat terbatas, amankan pilihan Anda sekarang.
+            Setiap paket dirancang untuk memberikan pengalaman Ramadhan terbaik. Seat sangat terbatas, amankan pilihan Anda sekarang.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
