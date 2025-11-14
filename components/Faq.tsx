@@ -41,11 +41,11 @@ const Faq: React.FC = () => {
     },
     {
         question: "Apa saja persyaratan dokumen yang diperlukan?",
-        answer: "Persyaratan utama sangat standar: Paspor yang masih berlaku minimal 7 bulan, KTP, Kartu Keluarga, buku nikah (bagi suami istri), dan pas foto. Tidak perlu khawatir, tim kami akan memberikan checklist lengkap dan membantu Anda di setiap tahapannya."
+        answer: "Persyaratan utama sangat standar: Pasp*r yang masih berlaku minimal 7 bulan, KTP, Kartu Keluarga, buku nikah (bagi suami istri), dan pas foto. Tidak perlu khawatir, tim kami akan memberikan checklist lengkap dan membantu Anda di setiap tahapannya."
     },
     {
-      question: "Bagaimana dengan proses pengurusan v*s*? Apakah rumit?",
-      answer: "Sama sekali tidak. Anda hanya perlu menyiapkan dokumen, dan seluruh proses pengajuan v*s* akan diurus sepenuhnya oleh tim kami. Sebagai travel berizin resmi, kami memastikan prosesnya lancar dan bebas dari rasa khawatir untuk Anda."
+      question: "Bagaimana dengan proses pengurusan v***? Apakah rumit?",
+      answer: "Sama sekali tidak. Anda hanya perlu menyiapkan dokumen kelengkapan pribadi, dan seluruh proses pengajuan v*s* akan diurus sepenuhnya oleh travel resmi mitra kami. Kami memastikan setiap detail diatur dengan baik, sehingga Anda bisa fokus pada perjalanan umroh tanpa khawatir."
     },
     {
         question: "Seberapa jauh lokasi hotel dari Masjidil Haram dan Nabawi?",

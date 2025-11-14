@@ -16,7 +16,7 @@ const ValueProposition: React.FC = () => {
     {
       icon: '👳‍♂️',
       title: 'Pembimbing Ibadah Profesional',
-      description: 'Didampingi oleh Mutowwif & Ustadz berpengalaman yang akan membimbing setiap prosesi ibadah Anda sesuai sunnah.'
+      description: 'Didampingi oleh Mutowwif & Ustadz berpengalaman yang akan membimbing setiap prosesi ibadah Anda sesuai ketentuan syariat.'
     },
     {
       icon: '🍽️',
