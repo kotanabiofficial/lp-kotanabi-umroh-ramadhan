@@ -19,7 +19,7 @@ const CallToAction: React.FC = () => {
         <div className="bg-white/90 text-dark p-8 md:p-12 rounded-lg shadow-2xl max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-secondary font-serif">Dapatkan Informasi Lengkap & Promo Spesial!</h3>
           <p className="text-gray-600 mb-6">
-            Klik tombol di bawah untuk konsultasi gratis dengan tim admin KotaNabi via WhatsApp. Kami siap membantu semua kebutuhan Anda untuk meraih pahala umroh dengan aman dan nyaman.
+            Klik tombol di bawah untuk konsultasi gratis dengan tim admin KotaNabi via WhatsApp. Kami siap membantu pendaftaran umroh Anda untuk meraih pahala umroh dengan aman dan nyaman.
           </p>
           <a
             href={whatsappUrl}
