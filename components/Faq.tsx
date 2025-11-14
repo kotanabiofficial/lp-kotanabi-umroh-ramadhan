@@ -44,10 +44,6 @@ const Faq: React.FC = () => {
         answer: "Persyaratan utama sangat standar: Pasp*r yang masih berlaku minimal 7 bulan, KTP, Kartu Keluarga, buku nikah (bagi suami istri), dan pas foto. Tidak perlu khawatir, tim kami akan memberikan checklist lengkap dan membantu Anda di setiap tahapannya."
     },
     {
-      question: "Bagaimana dengan proses pengurusan v***? Apakah rumit?",
-      answer: "Sama sekali tidak. Anda hanya perlu menyiapkan dokumen kelengkapan pribadi, dan seluruh proses pengajuan v*s* akan diurus sepenuhnya oleh travel resmi mitra kami. Kami memastikan setiap detail diatur dengan baik, sehingga Anda bisa fokus pada perjalanan umroh tanpa khawatir."
-    },
-    {
         question: "Seberapa jauh lokasi hotel dari Masjidil Haram dan Nabawi?",
         answer: "Kami memahami pentingnya kemudahan akses untuk beribadah. Karena itu, kami hanya memilih hotel bintang 5 yang berlokasi di ring 1, hanya beberapa langkah dari pelataran masjid. Ini memastikan Anda bisa shalat 5 waktu berjamaah tanpa terburu-buru dan kelelahan."
     },
