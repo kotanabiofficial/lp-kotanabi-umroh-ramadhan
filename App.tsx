@@ -20,9 +20,9 @@ function App() {
       <main>
         <Hero />
         <TrustBadges />
-        <ProblemAgitation />
-        <ValueProposition />
         <Packages />
+        <ValueProposition />
+        <ProblemAgitation />
         <Gallery />
         <Testimonials />
         <Faq />
