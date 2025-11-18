@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         poster="https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
       >
         {/* Replace with an actual video if available */}
-        <source src="https://motion-graphics.b-cdn.net/wp-content/uploads/2023/12/10-09-08-34.mp4" type="video/mp4" />
+        {/*} <source src="https://motion-graphics.b-cdn.net/wp-content/uploads/2023/12/10-09-08-34.mp4" type="video/mp4" /> */}
       </video>
 
       <div className="relative z-20 text-center px-4">

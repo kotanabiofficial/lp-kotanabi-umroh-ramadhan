@@ -12,7 +12,34 @@ const Packages: React.FC = () => {
       name: 'Umroh Awal Ramadhan',
       duration: '9 Hari',
       price: 'Mulai dari Rp28 Jt-an',
-      features: ['Penerbangan Direct by Oman Air', 'Hotel Bintang 3 (Mekah & Madinah)', 'Ibadah Awal Ramadhan', 'Include Sahur dan Buka'],
+      features: ['Hotel Bintang 3 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel Aqu Tour'],
+      isPopular: false,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10125/aqutour-umroh-awal-ramadhan-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+    },
+    {
+      name: 'Umroh Full Ramadhan',
+      duration: '35 Hari',
+      price: 'Mulai dari Rp33 Jt All-in',
+      features: ['Hotel Bintang 3', 'Umroh 1 Bulan Penuh', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel Aqu Tour'],
+      isPopular: true,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10126/aqutour-umroh-full-ramadhan-2026-35-hari.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+    },
+    {
+      name: 'Umroh I\'tikaf Ramadhan',
+      duration: '16 Hari',
+      price: 'Mulai dari Rp34 Jt-an',
+      features: ['Hotel Bintang 3', 'Full Itikaf 10 Hari Ramadhan', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel Aqu Tour'],
+      isPopular: false,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10124/aqutour-umroh-itikaf-ramadhan-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh I\'tikaf Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+    },
+    {
+      name: 'Umroh Awal Ramadhan',
+      duration: '9 Hari',
+      price: 'Mulai dari Rp28 Jt-an',
+      features: ['Penerbangan Direct by Oman Air', 'Hotel Bintang 3 (Mekah & Madinah)', 'Ibadah Awal Ramadhan', 'Include Sahur dan Buka', 'Travel Mutiara Sunnah'],
       isPopular: false,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10075/mutiarasunnah-easy-umroh-awal-ramadhan-2026.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Mutiara Sunnah*. Mohon informasi lengkapnya.'
@@ -21,8 +48,8 @@ const Packages: React.FC = () => {
       name: 'Umroh I\'tikaf 10 Malam Terakhir',
       duration: '16 Hari',
       price: 'Mulai dari Rp36 Jt-an',
-      features: ['Fokus Ibadah 10 Malam Terakhir', 'Berburu Malam Lailatul Qadar', 'Suasana Itikaf yang Khusyuk', 'Langsung Umroh dan I\'tikaf'],
-      isPopular: true,
+      features: ['Fokus Ibadah 10 Malam Terakhir', 'Berburu Malam Lailatul Qadar', 'Suasana Itikaf yang Khusyuk', 'Langsung Umroh dan I\'tikaf', 'Travel Mutiara Sunnah'],
+      isPopular: false,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10074/mutiarasunnah-umroh-itikaf-ramadhan-9-maret-2026.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan 2026 by Mutiara Sunnah*. Mohon informasi lengkapnya.'
     },
@@ -30,7 +57,7 @@ const Packages: React.FC = () => {
       name: 'Umroh I\'tikaf Madinah',
       duration: '15 Hari',
       price: 'Mulai dari Rp38 Jt-an',
-      features: ['Meraih Lailatul Qadr di Madinah', 'Kesempatan Itikaf 10 Malam Terakhir', 'Hotel Bintang 3 Nyaman', 'City Tour Mekah & Madinah'],
+      features: ['Meraih Lailatul Qadr di Madinah', 'Kesempatan Itikaf 10 Malam Terakhir', 'Hotel Bintang 3 Nyaman', 'City Tour Mekah & Madinah', 'Travel Nakhla Tour'],
       isPopular: false,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10077/nakhla-saqeefa-umroh-itikaf-ramadhan-madinah-2026.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan Madinah by Nakhla*. Mohon informasi lengkapnya.'
