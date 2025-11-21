@@ -5,13 +5,10 @@ const Gallery: React.FC = () => {
   const images = [
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10144/aqutour-jamaah-1.webp',
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10145/aqutour-jamaah-2.webp',
-    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10146/aqutour-jamaah-3.webp',
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10085/kn-jamaah-mutiarasunnah.webp',
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10086/kn-jamaah-mutiarasunnah-2.webp',
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10160/kn-jamaah-nakhla-2.webp',
     'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10159/kn-jamaah-nakhla.webp',
-    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10085/prosesi_umroh_grup_20_juli_2025.webp',
-    'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10086/prosesi_umroh_grup_28_agustus_2025.webp'
   ];
 
   return (
