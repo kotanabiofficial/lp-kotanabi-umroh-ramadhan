@@ -52,10 +52,27 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({
     }
 
     setIsSubmitting(true);
-    
+
+    // GTM Data Layer Push
+    if ((window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        'event': 'haji_umroh_lead',
+        'formName': 'Haji / Umroh Registration',
+        'leadPackage': selectedPackage,
+        'leadCity': formData.domicile,
+        // Enhanced Conversions Data
+        'user_data': {
+          'phone_number': formData.phone, // GTM will hash this
+          'address': {
+            'first_name': formData.name, // GTM will hash this
+            'city': formData.domicile
+          }
+        }
+      });
+    }
+
     const adminPhone = "628561500883"; // KotaNabi Admin
     const timestamp = new Date().toLocaleString('id-ID');
-    
     const text = `Assalamualaikum Admin KotaNabi,
 Saya ingin mendaftar/konsultasi program Haji.
 
@@ -210,4 +227,3 @@ Mohon info lengkap dan ketersediaan seat. Terima kasih.`;
 };
 
 export default RegistrationForm;
-
