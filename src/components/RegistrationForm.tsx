@@ -195,6 +195,7 @@ Mohon info lengkap dan ketersediaan seat. Terima kasih.`;
               </div>
               <button
                 type="submit"
+                id="kirimFormWA"
                 disabled={isSubmitting}
                 className={`w-full bg-primary hover:bg-yellow-600 text-white font-bold py-4 px-6 rounded-lg transition duration-300 shadow-lg transform hover:scale-[1.02] ${isSubmitting ? 'opacity-75 cursor-not-allowed' : ''}`}
               >

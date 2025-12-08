@@ -75,7 +75,7 @@ export const hajiFurodaData: LandingPageData = {
     subtitle: "Testimoni asli dari jamaah yang telah kami berangkatkan.",
     items: [
       {
-        quote: "Alhamdulillah, awalnya ragu karena banyak berita miring soal haji furoda. Tapi bersama KotaNabi, semua transparan. Visa keluar tepat waktu, fasilitas hotelnya benar-benar dekat. Ibadah jadi lancar.",
+        quote: "Alhamdulillah, awalnya ragu karena banyak berita miring soal haji furoda. Tapi bersama Jana Madinah Wisata, semua transparan. Visa keluar tepat waktu, fasilitas hotelnya benar-benar dekat. Ibadah jadi lancar.",
         name: "Bpk. H. Ahmad Fauzi",
         location: "Jakarta Selatan",
         avatar: "https://ui-avatars.com/api/?name=Ahmad+Fauzi&background=0D8ABC&color=fff"
@@ -87,7 +87,7 @@ export const hajiFurodaData: LandingPageData = {
         avatar: "https://ui-avatars.com/api/?name=Siti+Aminah&background=0D8ABC&color=fff"
       },
       {
-        quote: "Saya mendaftarkan orang tua yang sudah sepuh. Fasilitas VVIP nya sangat membantu, tidak terlalu lelah berjalan. Terima kasih KotaNabi telah mewujudkan impian orang tua kami.",
+        quote: "Saya mendaftarkan orang tua yang sudah sepuh. Fasilitas hotel bintang 5 nya sangat membantu, tidak terlalu lelah berjalan. Terima kasih Jana Madinah Wisata telah mewujudkan impian orang tua kami.",
         name: "H. Rahmat Hidayat",
         location: "Bandung",
         avatar: "https://ui-avatars.com/api/?name=Rahmat+Hidayat&background=0D8ABC&color=fff"
