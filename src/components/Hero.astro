@@ -1,0 +1,47 @@
+---
+import CountdownTimer from './CountdownTimer';
+
+interface Props {
+  title: string;
+  subtitle: string;
+  bgImage?: string;
+  targetDate: Date;
+}
+
+const { 
+  title, 
+  subtitle, 
+  bgImage = "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp",
+  targetDate 
+} = Astro.props;
+---
+
+<section class="relative h-screen flex items-center justify-center text-white font-serif">
+  <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
+  <video
+    autoplay
+    loop
+    muted
+    playsinline
+    class="absolute inset-0 w-full h-full object-cover"
+    poster={bgImage}
+  >
+     {/* <source src="..." type="video/mp4" /> */}
+  </video>
+
+  <div class="relative z-20 text-center px-20">
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4 animate-fade-in-down">
+      {title}
+    </h1>
+    <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-sans animate-fade-in-up">
+      {subtitle}
+    </p>
+    <div class="mb-10">
+      <a href="#paket" class="bg-primary hover:bg-yellow-600 text-white font-bold py-4 px-10 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-xl">
+        Amankan Seat Anda Sekarang
+      </a>
+    </div>
+    
+    <CountdownTimer client:load targetDate={targetDate} />
+  </div>
+</section>

@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero.astro';
+import TrustBadges from '../components/TrustBadges';
+import ProblemAgitation from '../components/ProblemAgitation';
+import ValueProposition from '../components/ValueProposition';
+import Packages from '../components/Packages';
+import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
+import Faq from '../components/Faq';
+import CallToAction from '../components/CallToAction';
+import Footer from '../components/Footer';
+import FloatingWhatsApp from '../components/FloatingWhatsApp';
+import { akhirTahunData } from '../data/pages/akhir-tahun';
+import { commonData } from '../data/common';
+
+const title = "Umroh Akhir Tahun 2025: Paket Spesial Liburan di Tanah Suci | KotaNabi";
+const description = "Wujudkan impian Umroh Akhir Tahun Anda dengan paket spesial KotaNabi. Nikmati pengalaman spiritual tak terlupakan di Tanah Suci. Daftar sekarang!";
+const targetDate = new Date(akhirTahunData.hero.targetDate);
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "KotaNabi - Paket Umroh Akhir Tahun",
+  "description": description,
+  "url": "https://lp.kotanabi.com/umroh-akhir-tahun",
+  "priceRange": "$$$",
+  "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
+};
+---
+
+<Layout title={title} description={description}>
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+    
+    <div class="bg-accent font-sans text-dark antialiased">
+      <Header client:load />
+      <main>
+        <Hero 
+          title={akhirTahunData.hero.title}
+          subtitle={akhirTahunData.hero.subtitle}
+          targetDate={targetDate}
+        />
+        <TrustBadges logos={commonData.trustBadges} />
+        
+        <Packages 
+          title="Pilihan Paket Umroh Akhir Tahun Terbaik" 
+          subtitle="Temukan paket Umroh Akhir Tahun yang sesuai dengan kebutuhan dan budget Anda. Ketersediaan terbatas!"
+          data={akhirTahunData.packages} 
+        />
+        
+        <ValueProposition 
+            title={akhirTahunData.valueProposition.title}
+            subtitle={akhirTahunData.valueProposition.subtitle}
+            features={akhirTahunData.valueProposition.features}
+        />
+        <ProblemAgitation 
+            title={akhirTahunData.problemAgitation.title}
+            description={akhirTahunData.problemAgitation.description}
+            painPointsTitle={akhirTahunData.problemAgitation.painPointsTitle}
+            painPoints={akhirTahunData.problemAgitation.painPoints}
+            solutionTitle={akhirTahunData.problemAgitation.solutionTitle}
+            solutionPoints={akhirTahunData.problemAgitation.solutionPoints}
+        />
+        <Gallery 
+            title={akhirTahunData.gallery.title}
+            subtitle={akhirTahunData.gallery.subtitle}
+            images={akhirTahunData.gallery.images}
+        />
+        <Testimonials 
+            title={akhirTahunData.testimonials.title}
+            subtitle={akhirTahunData.testimonials.subtitle}
+            items={akhirTahunData.testimonials.items}
+        />
+        <Faq items={akhirTahunData.faq} client:visible />
+        <CallToAction 
+            title={akhirTahunData.cta.title}
+            description={akhirTahunData.cta.description}
+            boxTitle={akhirTahunData.cta.boxTitle}
+            boxDescription={akhirTahunData.cta.boxDescription}
+            buttonText={akhirTahunData.cta.buttonText}
+            whatsappMessage={akhirTahunData.cta.whatsappMessage}
+        />
+      </main>
+      <Footer />
+      <FloatingWhatsApp whatsappMessage={akhirTahunData.cta.whatsappMessage} client:idle />
+    </div>
+</Layout>

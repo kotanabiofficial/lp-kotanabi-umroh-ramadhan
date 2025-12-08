@@ -1,0 +1,79 @@
+---
+interface Props {
+	title: string;
+    description?: string;
+}
+
+const { title, description = "Default description" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/assets/logo-kotanabi.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+      <meta name="description" content={description} />
+        
+      <!-- Preload -->
+      <link rel="preload" fetchpriority="high" as="image" href="https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp" type="image/webp">
+
+      <!-- Tailwind CDN (Preserved for migration speed) -->
+      <script src="https://cdn.tailwindcss.com/3.4.17" is:inline></script>
+        
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+      <!-- Tailwind Config -->
+      <script is:inline>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#A08444',
+                secondary: '#1A3A3A',
+                accent: '#F3EAD8',
+                dark: '#111827',
+              },
+              fontFamily: {
+                'serif': ['Lora', 'serif'],
+                'sans': ['Poppins', 'sans-serif'],
+              },
+              keyframes: {
+                fadeInDown: {
+                  '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                  '100%': { opacity: '1', transform: 'translateY(0)' },
+                },
+                fadeInUp: {
+                  '0%': { opacity: '0', transform: 'translateY(10px)' },
+                  '100%': { opacity: '1', transform: 'translateY(0)' },
+                }
+              },
+              animation: {
+                'fade-in-down': 'fadeInDown 0.5s ease-out',
+                'fade-in-up': 'fadeInUp 0.5s ease-out',
+              }
+            }
+          }
+        }
+      </script>
+
+      <!-- GTM -->
+      <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WHJG8RQ3');</script>
+	</head>
+	<body>
+      <!-- GTM (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHJG8RQ3"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+		<slot />
+	</body>
+</html>

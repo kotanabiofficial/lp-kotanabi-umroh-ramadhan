@@ -2,19 +2,40 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Umroh Ramadhan 2026 Landing Page
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1GkSm8bsqYX8t8Jp3kLUV5oZLbkZ8YCDv
+This project has been refactored from React/Vite to [Astro](https://astro.build/) for better performance and static site generation (SSG).
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Building and Deployment
+
+This project is configured for deployment to **GitHub Pages**.
+
+### Build Locally
+To generate the static build in `dist/`:
+```bash
+npm run build
+```
+
+### Deploy
+Push to the `main` branch to trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
+Ensure your GitHub repository settings have Pages enabled with Source set to "GitHub Actions".
+
+## Project Structure
+
+- `src/pages/index.astro`: Main entry point.
+- `src/layouts/Layout.astro`: HTML shell with SEO and metadata.
+- `src/components/`: React and Astro components.
+- `public/`: Static assets (CNAME, logos).

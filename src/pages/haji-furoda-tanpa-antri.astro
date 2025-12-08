@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero.astro';
+import TrustBadges from '../components/TrustBadges';
+import ProblemAgitation from '../components/ProblemAgitation';
+import ValueProposition from '../components/ValueProposition';
+import Packages from '../components/Packages';
+import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
+import Faq from '../components/Faq';
+import RegistrationForm from '../components/RegistrationForm';
+import Footer from '../components/Footer';
+import FloatingWhatsApp from '../components/FloatingWhatsApp';
+import { hajiFurodaData } from '../data/pages/haji-furoda';
+import { commonData } from '../data/common';
+
+const targetDate = new Date(hajiFurodaData.hero.targetDate);
+---
+
+<Layout 
+  title="Haji Furoda 2026 Tanpa Antri | Visa Resmi & InsyaAllah Berangkat - Kota Nabi" 
+  description="Daftar Haji Furoda 2026 Tanpa Antri bersama Kota Nabi. Visa Mujamalah Resmi, Fasilitas VVIP Hotel Bintang 5, Pembimbing Bersertifikat. Kuota Terbatas!"
+>
+    <div class="bg-accent font-sans text-dark antialiased">
+      <Header client:load />
+      <main>
+        <Hero 
+          title={hajiFurodaData.hero.title}
+          subtitle={hajiFurodaData.hero.subtitle}
+          targetDate={targetDate}
+          bgImage={hajiFurodaData.hero.bgImage}
+        />
+
+        <TrustBadges logos={commonData.trustBadges} />
+
+        <Packages 
+          title="Pilihan Paket Haji Furoda 2026"
+          subtitle="Pilih kenyamanan ibadah Anda dengan fasilitas terbaik yang kami sediakan."
+          data={hajiFurodaData.packages} 
+        />
+
+        <ValueProposition 
+            title={hajiFurodaData.valueProposition.title}
+            subtitle={hajiFurodaData.valueProposition.subtitle}
+            features={hajiFurodaData.valueProposition.features}
+        />
+
+        <ProblemAgitation 
+            title={hajiFurodaData.problemAgitation.title}
+            description={hajiFurodaData.problemAgitation.description}
+            painPointsTitle={hajiFurodaData.problemAgitation.painPointsTitle}
+            painPoints={hajiFurodaData.problemAgitation.painPoints}
+            solutionTitle={hajiFurodaData.problemAgitation.solutionTitle}
+            solutionPoints={hajiFurodaData.problemAgitation.solutionPoints}
+        />
+
+        <Gallery 
+            title={hajiFurodaData.gallery.title}
+            subtitle={hajiFurodaData.gallery.subtitle}
+            images={hajiFurodaData.gallery.images}
+        />
+
+        <Testimonials 
+            title={hajiFurodaData.testimonials.title}
+            subtitle={hajiFurodaData.testimonials.subtitle}
+            items={hajiFurodaData.testimonials.items}
+        />
+
+        <Faq items={hajiFurodaData.faq} client:visible />
+
+        <RegistrationForm 
+          title={hajiFurodaData.cta.title}
+          description={hajiFurodaData.cta.description}
+          packages={hajiFurodaData.packages}
+          client:visible
+        />
+
+      </main>
+      <Footer />
+      <FloatingWhatsApp whatsappMessage={hajiFurodaData.cta.whatsappMessage} client:idle />
+    </div>
+</Layout>

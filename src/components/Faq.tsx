@@ -29,8 +29,12 @@ const FaqItem: React.FC<FaqItemProps> = ({ question, answer }) => {
   );
 };
 
-const Faq: React.FC = () => {
-  const faqData = [
+interface FaqProps {
+  items?: FaqItemProps[];
+}
+
+const Faq: React.FC<FaqProps> = ({ items }) => {
+  const defaultFaqData = [
     {
       question: "Bagaimana cara pendaftarannya?",
       answer: "Sangat mudah. Cukup klik tombol WhatsApp di halaman ini untuk terhubung dengan konsultan kami. Tim kami akan memandu Anda langkah demi langkah, mulai dari pemilihan paket hingga pengumpulan dokumen, sehingga Anda bisa fokus pada persiapan hati."
@@ -61,6 +65,8 @@ const Faq: React.FC = () => {
     }
   ];
 
+  const displayFaqData = items || defaultFaqData;
+
   return (
     <section id="faq" className="py-20 bg-white">
       <div className="container mx-auto px-6 max-w-4xl">
@@ -68,7 +74,7 @@ const Faq: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">Pertanyaan yang Sering Diajukan (FAQ)</h2>
         </div>
         <div>
-          {faqData.map((item, index) => (
+          {displayFaqData.map((item, index) => (
             <FaqItem key={index} question={item.question} answer={item.answer} />
           ))}
         </div>
