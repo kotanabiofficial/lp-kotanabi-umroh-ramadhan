@@ -17,7 +17,8 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({
     phone: '',
     domicile: ''
   });
-  const [selectedPackage, setSelectedPackage] = useState<string>(packages.length > 0 ? packages[0].name : '');
+  const initialSelectedPackage = packages.find(pkg => pkg.isPopular)?.name || (packages.length > 0 ? packages[0].name : '');
+  const [selectedPackage, setSelectedPackage] = useState<string>(initialSelectedPackage);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [phoneError, setPhoneError] = useState<string | null>(null);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -56,7 +57,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({
     const timestamp = new Date().toLocaleString('id-ID');
     
     const text = `Assalamualaikum Admin KotaNabi,
-Saya ingin mendaftar/konsultasi Haji Furoda 2026.
+Saya ingin mendaftar/konsultasi program Haji.
 
 *Data Diri:*
 Nama: ${formData.name}
