@@ -27,15 +27,26 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState<TimeLeft | {}>(calculateTimeLeft());
+  // Initialize with empty object to ensure server and initial client render match
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | {}>({});
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setMounted(true);
+    // Calculate immediately on mount
+    setTimeLeft(calculateTimeLeft());
+    
+    const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
 
-    return () => clearTimeout(timer);
-  });
+    return () => clearInterval(timer);
+  }, [targetDate]);
+
+  // Don't render anything on the server to avoid mismatch, or render a skeleton
+  if (!mounted) {
+    return null; 
+  }
 
   // Fix: Replaced 'JSX.Element' with 'React.ReactElement' to resolve the 'Cannot find namespace JSX' error.
   const timerComponents: React.ReactElement[] = [];

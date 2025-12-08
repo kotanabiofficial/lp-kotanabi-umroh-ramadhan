@@ -1,8 +1,25 @@
 
 import React from 'react';
 
-const Testimonials: React.FC = () => {
-  const testimonials = [
+interface Testimonial {
+  quote: string;
+  name: string;
+  location: string;
+  avatar: string;
+}
+
+interface TestimonialsProps {
+  title?: string;
+  subtitle?: string;
+  items?: Testimonial[];
+}
+
+const Testimonials: React.FC<TestimonialsProps> = ({
+  title = "Apa Kata Mereka yang Telah Berangkat Bersama Kami?",
+  subtitle = "Kepuasan dan kekhusyukan ibadah Anda adalah prioritas utama kami.",
+  items
+}) => {
+  const defaultTestimonials = [
     {
       quote: "Pengalaman umroh Ramadhan yang luar biasa. Pembimbingnya sangat sabar, hotelnya dekat sekali, jadi tidak capek bolak-balik ke masjid. Benar-benar bisa fokus ibadah.",
       name: "Bapak H. Ahmad Santoso",
@@ -23,17 +40,19 @@ const Testimonials: React.FC = () => {
     }
   ];
 
+  const displayTestimonials = items || defaultTestimonials;
+
   return (
     <section id="testimoni" className="py-20 bg-accent">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">Apa Kata Mereka yang Telah Berangkat Bersama Kami?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">{title}</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Kepuasan dan kekhusyukan ibadah Anda adalah prioritas utama kami.
+            {subtitle}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
+          {displayTestimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
               <p className="text-gray-600 italic mb-6">"{testimonial.quote}"</p>
               <div className="flex items-center">

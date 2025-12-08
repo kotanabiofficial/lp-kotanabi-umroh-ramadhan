@@ -1,8 +1,24 @@
 
 import React from 'react';
 
-const ValueProposition: React.FC = () => {
-  const features = [
+interface Feature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+interface ValuePropositionProps {
+  title?: string;
+  subtitle?: string;
+  features?: Feature[];
+}
+
+const ValueProposition: React.FC<ValuePropositionProps> = ({
+  title = "Mengapa Memilih Kami Untuk Perjalanan Suci Anda?",
+  subtitle = "Kami bukan hanya memberangkatkan, kami merancang setiap detail perjalanan agar Anda dapat beribadah dengan tenang, khusyuk, dan nyaman.",
+  features
+}) => {
+  const defaultFeatures = [
     {
       icon: '✈️',
       title: 'Penerbangan Langsung & Nyaman',
@@ -35,20 +51,22 @@ const ValueProposition: React.FC = () => {
     }
   ];
 
+  const displayFeatures = features || defaultFeatures;
+
   return (
     <section id="keunggulan" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">Mengapa Memilih Kami Untuk Perjalanan Suci Anda?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-serif text-secondary">{title}</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Kami bukan hanya memberangkatkan, kami merancang setiap detail perjalanan agar Anda dapat beribadah dengan tenang, khusyuk, dan nyaman.
+            {subtitle}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
+          {displayFeatures.map((feature, index) => (
             <div key={index} className="bg-accent/50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
               <div className="text-center text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold font-serif text-secondary mb-2">{feature.title}</h3>
+              <h3 className="text-center text-xl font-bold font-serif text-secondary mb-2">{feature.title}</h3>
               <p className="text-gray-700">{feature.description}</p>
             </div>
           ))}

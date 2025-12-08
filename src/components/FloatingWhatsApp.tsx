@@ -1,10 +1,15 @@
 
 import React from 'react';
 
-const FloatingWhatsApp: React.FC = () => {
+interface FloatingWhatsAppProps {
+  whatsappMessage?: string;
+}
+
+const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({
+  whatsappMessage = "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya."
+}) => {
   const phoneNumber = "628561500883";
-  const message = "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya.";
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <a
