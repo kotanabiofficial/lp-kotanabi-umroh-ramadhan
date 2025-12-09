@@ -1,0 +1,87 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer';
+import ConsultationForm from '../components/ConsultationForm';
+import FloatingWhatsApp from '../components/FloatingWhatsApp';
+import ValueProposition from '../components/ValueProposition';
+import ContactInfo from '../components/ContactInfo.astro';
+import LocationMap from '../components/LocationMap.astro';
+
+const whatsappMessage = "Assalamualaikum, saya ingin berkonsultasi mengenai paket umroh/haji.";
+const targetDate = new Date('2026-01-01'); // Placeholder
+
+// Data for ValueProposition
+const consultationValueProps = {
+  title: "Mengapa Berkonsultasi dengan Kami?",
+  subtitle: "Merencanakan ibadah ke Tanah Suci membutuhkan persiapan matang. Kami hadir untuk memastikan setiap langkah Anda tenang dan sesuai tuntunan.",
+  features: [
+    {
+      icon: '💎',
+      title: 'Transparan & Amanah',
+      description: 'Penjelasan detail mengenai biaya, fasilitas, dan legalitas visa tanpa ada biaya tersembunyi.'
+    },
+    {
+      icon: '🕌',
+      title: 'Bimbingan Sesuai Sunnah',
+      description: 'Konsultasi ibadah langsung dengan tim yang memahami fiqih haji dan umroh sesuai Al-Qur\'an dan As-Sunnah.'
+    },
+    {
+      icon: '🤝',
+      title: 'Solusi Personal',
+      description: 'Kami membantu memilihkan paket yang paling sesuai dengan budget, jadwal, dan kondisi fisik jamaah (lansia/risti).'
+    }
+  ]
+};
+---
+
+<Layout 
+  title="Konsultasi Haji & Umroh Gratis | KotaNabi" 
+  description="Dapatkan layanan konsultasi gratis seputar perencanaan ibadah Haji dan Umroh Anda bersama tim ahli KotaNabi. Transparan dan Sesuai Sunnah."
+>
+  <div class="bg-accent font-sans text-dark antialiased">
+    <Header client:load />
+    
+    <main>
+      
+
+      {/* Value Proposition Section - Full Width */}
+      <ValueProposition 
+        title={consultationValueProps.title}
+        subtitle={consultationValueProps.subtitle}
+        features={consultationValueProps.features}
+      />
+
+      {/* Contact Form & Info Section */}
+      <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold font-serif text-secondary">Mulai Konsultasi Gratis</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+              Silakan lengkapi formulir di bawah ini atau kunjungi kantor kami. Konsultan umroh &amp; haji kami akan segera merespon kebutuhan Anda.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-w-6xl mx-auto">
+            
+            {/* Left Column: Contact Info (now on the left) */}
+            <div class="lg:col-span-5 order-2 lg:order-1 space-y-8">
+              <ContactInfo />
+              <LocationMap />
+            </div>
+
+            {/* Right Column: Form (now on the right) */}
+            <div class="lg:col-span-7 order-1 lg:order-2">
+               <ConsultationForm client:load />
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+    <FloatingWhatsApp whatsappMessage={whatsappMessage} client:idle />
+  </div>
+</Layout>
