@@ -6,13 +6,15 @@ interface Props {
   subtitle: string;
   bgImage?: string;
   targetDate: Date;
+  showCountdown?: boolean; // New optional prop
 }
 
 const { 
   title, 
   subtitle, 
   bgImage = "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp",
-  targetDate 
+  targetDate,
+  showCountdown = true // Default to true
 } = Astro.props;
 ---
 
@@ -42,6 +44,6 @@ const {
       </a>
     </div>
     
-    <CountdownTimer client:load targetDate={targetDate} />
+    {showCountdown && <CountdownTimer client:load targetDate={targetDate} />}
   </div>
 </section>
