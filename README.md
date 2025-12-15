@@ -1,8 +1,8 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="GHBanner" src="https://storage.googleapis.com/muslimpergi/uploads/site/logo2/2/medium_logo-kotanabi-umroh-online-terpercaya.webp" />
 </div>
 
-# Umroh Ramadhan 2026 Landing Page
+# Kota Nabi Ads Landing Page
 
 This project has been refactored from React/Vite to [Astro](https://astro.build/) for better performance and static site generation (SSG).
 
@@ -12,11 +12,11 @@ This project has been refactored from React/Vite to [Astro](https://astro.build/
 
 1. Install dependencies:
    ```bash
-   npm install
+   bun install
    ```
 2. Run the development server:
    ```bash
-   npm run dev
+   bun run dev
    ```
 
 ## Building and Deployment
@@ -26,7 +26,7 @@ This project is configured for deployment to **GitHub Pages**.
 ### Build Locally
 To generate the static build in `dist/`:
 ```bash
-npm run build
+bun run build
 ```
 
 ### Deploy
