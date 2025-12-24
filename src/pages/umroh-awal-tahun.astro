@@ -36,7 +36,7 @@ const schemaData = {
 <Layout title={title} description={description}>
     <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
     
-    <div class="bg-accent font-sans text-dark antialiased">
+    <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
       <Header client:load />
       <main>
         <Hero 
@@ -94,6 +94,6 @@ const schemaData = {
         <Faq items={awalTahunData.faq} client:visible />
       </main>
       <Footer />
-      <FloatingWhatsApp whatsappMessage={awalTahunData.cta.whatsappMessage} client:idle />
+      <FloatingWhatsApp whatsappMessage={awalTahunData.cta.whatsappMessage} buttonText={awalTahunData.cta.buttonText} client:idle />
     </div>
 </Layout>
