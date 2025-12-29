@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero.astro';
+import TrustBadges from '../components/TrustBadges';
+import ValueProposition from '../components/ValueProposition';
+import ProblemAgitation from '../components/ProblemAgitation';
+import Packages from '../components/Packages';
+import RegistrationForm from '../components/RegistrationForm';
+import Testimonials from '../components/Testimonials';
+import Gallery from '../components/Gallery';
+import Faq from '../components/Faq';
+import Footer from '../components/Footer';
+import FloatingWhatsApp from '../components/FloatingWhatsApp';
+import { awalTahunData } from '../data/pages/awal-tahun';
+import { commonData } from '../data/common';
+
+const title = "Umroh Awal Tahun 2026: Awali Tahun Baru dengan Ibadah | KotaNabi";
+const description = "Paket Umroh Awal Tahun 2026 KotaNabi. Mulai tahun baru dengan keberkahan di Tanah Suci. Harga hemat, fasilitas nyaman, pembimbing berpengalaman.";
+const targetDate = new Date(awalTahunData.hero.targetDate);
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "KotaNabi - Paket Umroh Awal Tahun",
+  "description": description,
+  "url": "https://lp.kotanabi.com/umroh-awal-tahun",
+  "priceRange": "$$$",
+  "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
+};
+
+
+
+---
+
+<Layout title={title} description={description}>
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+    
+    <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
+      <Header client:load />
+      <main>
+        <Hero 
+          title={awalTahunData.hero.title}
+          subtitle={awalTahunData.hero.subtitle}
+          targetDate={targetDate}
+        />
+
+        <TrustBadges logos={commonData.trustBadges} />
+
+        <ProblemAgitation
+            title={awalTahunData.problemAgitation.title}
+            description={awalTahunData.problemAgitation.description}
+            painPointsTitle={awalTahunData.problemAgitation.painPointsTitle}
+            painPoints={awalTahunData.problemAgitation.painPoints}
+            solutionTitle={awalTahunData.problemAgitation.solutionTitle}
+            solutionPoints={awalTahunData.problemAgitation.solutionPoints}
+        />
+
+        <ValueProposition 
+            title={awalTahunData.valueProposition.title}
+            subtitle={awalTahunData.valueProposition.subtitle}
+            features={awalTahunData.valueProposition.features}
+        />
+
+        <Packages
+          title="Pilihan Paket Umroh Awal Tahun 2026"
+          subtitle="Awali tahun dengan langkah terbaik menuju Baitullah. Pilih paket yang sesuai dengan kebutuhan Anda."
+          data={awalTahunData.packages}
+        />
+
+        <div id="registration-form">
+            <RegistrationForm 
+                client:load 
+                title="Daftar Umroh Awal Tahun Sekarang"
+                description="Amankan seat Anda untuk keberangkatan Januari - Februari 2026. Isi form di bawah ini untuk konsultasi gratis."
+                packages={awalTahunData.packages}
+                formSource="Landing Page Awal Tahun"
+                programName="Umroh Awal Tahun"
+            />
+        </div>
+
+        <Gallery 
+            title={awalTahunData.gallery.title}
+            subtitle={awalTahunData.gallery.subtitle}
+            images={awalTahunData.gallery.images}
+        />
+
+        <Testimonials
+            title={awalTahunData.testimonials.title} 
+            subtitle={awalTahunData.testimonials.subtitle}
+            items={awalTahunData.testimonials.items}
+        />
+
+        <Faq items={awalTahunData.faq} client:visible />
+      </main>
+      <Footer />
+      <FloatingWhatsApp whatsappMessage={awalTahunData.cta.whatsappMessage} buttonText={awalTahunData.cta.buttonText} client:idle />
+    </div>
+</Layout>

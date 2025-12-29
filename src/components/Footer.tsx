@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             alt="Baitullah Journey Logo" 
             className="h-12 mb-4 mx-auto md:mx-0" 
           />
-          <p className="text-gray-400">
+          <p className="text-gray-400 break-words">
             PT. Inovasi Kota Nabi<br />
             Jln. Tampingan Raya RT 4 RW 5, Pandansari, Tampingan, Boja
           </p>

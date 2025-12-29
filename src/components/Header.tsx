@@ -1,21 +1,8 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  // Effect to lock body scroll when menu is open
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.classList.add('overflow-hidden');
-    } else {
-      document.body.classList.remove('overflow-hidden');
-    }
-    // Cleanup on component unmount
-    return () => {
-      document.body.classList.remove('overflow-hidden');
-    };
-  }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

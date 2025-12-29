@@ -5,12 +5,16 @@ interface RegistrationFormProps {
   title?: string;
   description?: string;
   packages: PackageData[];
+  formSource?: string;
+  programName?: string;
 }
 
 const RegistrationForm: React.FC<RegistrationFormProps> = ({
   title = "Formulir Pendaftaran Prioritas",
   description = "Isi data diri Anda di bawah ini untuk mendapatkan prioritas konsultasi dan informasi ketersediaan seat Haji Furoda 2026.",
-  packages
+  packages,
+  formSource = 'Landing Page Haji Furoda',
+  programName = 'Haji'
 }) => {
   const [formData, setFormData] = useState({
     name: '',
@@ -73,8 +77,9 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({
 
     const adminPhone = "628561500883"; // KotaNabi Admin
     const timestamp = new Date().toLocaleString('id-ID');
+    
     const text = `Assalamualaikum Admin KotaNabi,
-Saya ingin mendaftar/konsultasi program Haji.
+Saya ingin mendaftar/konsultasi program ${programName}.
 
 *Data Diri:*
 Nama: ${formData.name}
@@ -96,7 +101,7 @@ Mohon info lengkap dan ketersediaan seat. Terima kasih.`;
       phone: formData.phone,
       domicile: formData.domicile,
       package: selectedPackage,
-      source: 'Landing Page Haji Furoda'
+      source: formSource
     };
 
     try {
