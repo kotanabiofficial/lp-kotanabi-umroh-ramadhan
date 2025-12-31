@@ -52,9 +52,9 @@ export const akhirTahunData: LandingPageData = {
     title: "Cerita Keluarga Alumni Umroh Akhir Tahun",
     subtitle: "Mereka telah membuktikan indahnya berlibur sambil beribadah.",
     items: [
-      { quote: "Anak-anak senang sekali, tidak rewel karena udaranya sejuk.", name: "Bapak Rahmat", location: "Bekasi", avatar: "https://picsum.photos/seed/rahmat/100/100" },
-      { quote: "Cara terbaik menutup tahun. Sangat berkesan.", name: "Ibu Yulia", location: "Semarang", avatar: "https://picsum.photos/seed/yulia/100/100" },
-      { quote: "Pelayanan KotaNabi top banget. Hotelnya beneran deket.", name: "Keluarga H. Dedi", location: "Bogor", avatar: "https://picsum.photos/seed/dedi/100/100" }
+      { quote: "Anak-anak senang sekali, tidak rewel karena udaranya sejuk.", name: "Bapak Rahmat", location: "Bekasi", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp" },
+      { quote: "Cara terbaik menutup tahun. Sangat berkesan.", name: "Ibu Yulia", location: "Semarang", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp" },
+      { quote: "Pelayanan KotaNabi top banget. Hotelnya beneran deket.", name: "Keluarga H. Dedi", location: "Bogor", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp" }
     ]
   },
   faq: [

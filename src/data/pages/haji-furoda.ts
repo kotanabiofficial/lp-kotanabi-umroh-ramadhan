@@ -78,19 +78,19 @@ export const hajiFurodaData: LandingPageData = {
         quote: "Alhamdulillah, awalnya ragu karena banyak berita miring soal haji furoda. Tapi bersama Jana Madinah Wisata, semua transparan. Visa keluar tepat waktu, fasilitas hotelnya benar-benar dekat. Ibadah jadi lancar.",
         name: "Bpk. H. Ahmad Fauzi",
         location: "Jakarta Selatan",
-        avatar: "https://ui-avatars.com/api/?name=Ahmad+Fauzi&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp"
       },
       {
         quote: "Pelayanan luar biasa sejak pendaftaran sampai kepulangan. Ustadz pembimbingnya sangat sabar dan ilmunya mendalam. Sangat direkomendasikan untuk yang ingin haji tanpa antri.",
         name: "Ibu Hj. Siti Aminah",
         location: "Surabaya",
-        avatar: "https://ui-avatars.com/api/?name=Siti+Aminah&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp"
       },
       {
         quote: "Saya mendaftarkan orang tua yang sudah sepuh. Fasilitas hotel bintang 5 nya sangat membantu, tidak terlalu lelah berjalan. Terima kasih Jana Madinah Wisata telah mewujudkan impian orang tua kami.",
         name: "H. Rahmat Hidayat",
         location: "Bandung",
-        avatar: "https://ui-avatars.com/api/?name=Rahmat+Hidayat&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp"
       }
     ]
   },

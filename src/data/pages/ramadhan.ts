@@ -52,9 +52,9 @@ export const ramadhanData: LandingPageData = {
     title: "Apa Kata Mereka yang Telah Berangkat?",
     subtitle: "Kepuasan dan kekhusyukan ibadah Anda adalah prioritas utama kami.",
     items: [
-      { quote: "Pengalaman umroh Ramadhan yang luar biasa.", name: "Bapak H. Ahmad Santoso", location: "Jakarta", avatar: "https://picsum.photos/seed/avatar1/100/100" },
-      { quote: "Alhamdulillah, impian Itikaf di Masjidil Haram terwujud.", name: "Ibu Siti Fatimah", location: "Surabaya", avatar: "https://picsum.photos/seed/avatar2/100/100" },
-      { quote: "Sangat direkomendasikan!", name: "Mas Budi Prasetyo", location: "Bandung", avatar: "https://picsum.photos/seed/avatar3/100/100" }
+      { quote: "Pengalaman umroh Ramadhan yang luar biasa.", name: "Bapak H. Ahmad Santoso", location: "Jakarta", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp" },
+      { quote: "Alhamdulillah, impian Itikaf di Masjidil Haram terwujud.", name: "Ibu Siti Fatimah", location: "Surabaya", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp" },
+      { quote: "Sangat direkomendasikan!", name: "Mas Budi Prasetyo", location: "Bandung", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp" }
     ]
   },
   faq: [

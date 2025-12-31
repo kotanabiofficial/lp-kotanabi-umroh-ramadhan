@@ -52,9 +52,9 @@ export const liburanKeluargaData: LandingPageData = {
     title: "Kata Keluarga Alumni Umroh",
     subtitle: "Cerita inspiratif dari mereka yang mengajak keluarga berumroh.",
     items: [
-      { quote: "Awalnya takut repot bawa anak kecil, ternyata tim KotaNabi sangat membantu. Anak-anak malah seneng banget di Madinah.", name: "Keluarga Bapak Rahmat", location: "Bekasi", avatar: "https://picsum.photos/seed/rahmat/100/100" },
-      { quote: "Liburan paling berkesan seumur hidup. Anak saya jadi rajin sholat setelah pulang umroh. MasyaAllah.", name: "Ibu Kartika", location: "Depok", avatar: "https://picsum.photos/seed/kartika/100/100" },
-      { quote: "Harganya sangat masuk akal untuk fasilitas sebaik ini. Hotelnya dekat, makanan cocok di lidah anak-anak.", name: "Bapak Arif", location: "Tangerang Selatan", avatar: "https://picsum.photos/seed/arif/100/100" }
+      { quote: "Awalnya takut repot bawa anak kecil, ternyata tim KotaNabi sangat membantu. Anak-anak malah seneng banget di Madinah.", name: "Keluarga Bapak Rahmat", location: "Bekasi", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp" },
+      { quote: "Liburan paling berkesan seumur hidup. Anak saya jadi rajin sholat setelah pulang umroh. MasyaAllah.", name: "Ibu Kartika", location: "Depok", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp" },
+      { quote: "Harganya sangat masuk akal untuk fasilitas sebaik ini. Hotelnya dekat, makanan cocok di lidah anak-anak.", name: "Bapak Arif", location: "Tangerang Selatan", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp" }
     ]
   },
   faq: [

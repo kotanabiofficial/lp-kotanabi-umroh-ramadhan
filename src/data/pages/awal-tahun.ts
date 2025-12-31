@@ -52,9 +52,9 @@ export const awalTahunData: LandingPageData = {
     title: "Apa Kata Mereka?",
     subtitle: "Pengalaman nyata jamaah yang mengawali tahun dengan Umroh.",
     items: [
-      { quote: "Alhamdulillah, pulang umroh awal tahun rasanya semangat banget buat kerja dan ibadah setahun kedepan.", name: "Bapak Hidayat", location: "Jakarta", avatar: "https://picsum.photos/seed/hidayat/100/100" },
-      { quote: "Cuacanya enak banget, sejuk. Ibadah jadi makin khusyuk. Makasih KotaNabi pelayanannya juara.", name: "Ibu Fatimah", location: "Surabaya", avatar: "https://picsum.photos/seed/fatimah/100/100" },
-      { quote: "Paket hematnya beneran hemat tapi fasilitasnya gak murahan. Recommended!", name: "Mas Andi", location: "Bandung", avatar: "https://picsum.photos/seed/andi/100/100" }
+      { quote: "Alhamdulillah, pulang umroh awal tahun rasanya semangat banget buat kerja dan ibadah setahun kedepan.", name: "Bapak Hidayat", location: "Jakarta", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp" },
+      { quote: "Cuacanya enak banget, sejuk. Ibadah jadi makin khusyuk. Makasih KotaNabi pelayanannya juara.", name: "Ibu Fatimah", location: "Surabaya", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp" },
+      { quote: "Paket hematnya beneran hemat tapi fasilitasnya gak murahan. Recommended!", name: "Mas Andi", location: "Bandung", avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp" }
     ]
   },
   faq: [
