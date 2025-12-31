@@ -2,7 +2,7 @@ import type { LandingPageData } from '../types';
 
 export const ramadhanData: LandingPageData = {
   hero: {
-    title: "Wujudkan Impian Umroh Penuh Berkah di Bulan Ramadhan 2026",
+    title: "Umroh Ramadhan 2026: Raih Lailatul Qadar di Tanah Suci",
     subtitle: "Raih Keberkahan Malam Lailatul Qadar & Idul Fitri di Tanah Suci. Sebuah perjalanan spiritual yang tak terlupakan menanti Anda.",
     targetDate: "2026-02-18T00:00:00"
   },
