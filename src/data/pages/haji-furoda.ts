@@ -3,7 +3,7 @@ import type { LandingPageData } from '../types';
 export const hajiFurodaData: LandingPageData = {
   hero: {
     title: "Haji Furoda 2026 Tanpa Antri",
-    subtitle: "Wujudkan Impian Berhaji Tahun Ini dengan Dokumen Perjalanan Resmi Mujamalah. Fasilitas Hotel Bingtang 5, Bimbingan Ibadah Sesuai Sunnah, dan InsyaAllah Jaminan Kepastian Berangkat Bersama Travel PIHK Resmi Jana Madinah Wisata.",
+    subtitle: "Wujudkan impian suci Anda untuk berhaji tahun ini juga melalui program Haji Furoda 2026 tanpa antri, dengan jaminan Dokumen Perjalanan Resmi Mujamalah dan fasilitas VVIP bintang 5 yang memberikan kenyamanan maksimal serta bimbingan ibadah sesuai sunnah bersama Jana Madinah Wisata.",
     targetDate: "2026-06-15T00:00:00", // Approximate Hajj date for 2026
     bgImage: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
   },
@@ -14,51 +14,51 @@ export const hajiFurodaData: LandingPageData = {
       {
         icon: "⚡",
         title: "Tanpa Antri (Langsung Berangkat)",
-        description: "Tidak perlu menunggu antrian lama hingga puluhan tahun. Daftar tahun ini, InsyaAllah berangkat tahun ini juga dengan Visa Mujamalah resmi."
+        description: "Anda tidak perlu lagi menunggu antrian haji reguler yang mencapai puluhan tahun, karena dengan mendaftar tahun ini, InsyaAllah Anda bisa langsung berangkat menunaikan ibadah haji tahun ini juga menggunakan Dokumen Perjalanan Mujamalah resmi."
       },
       {
         icon: "✅",
         title: "Visa Resmi & Terjamin",
-        description: "Kami menggunakan Dokumen Perjalanan Mujamalah (Furoda) yang terdaftar resmi di sistem e-Hajj Arab Saudi. Transparansi dan keamanan adalah prioritas kami."
+        description: "Kami menjamin penggunaan Dokumen Perjalanan Mujamalah (Furoda) yang terdaftar secara resmi dan sah di dalam sistem e-Hajj Kerajaan Arab Saudi, sehingga transparansi dan keamanan legalitas perjalanan Anda menjadi prioritas utama kami."
       },
       {
         icon: "👳‍♂️",
         title: "Pembimbing Bersertifikat",
-        description: "Didampingi oleh Ustadz dan Muthawif berpengalaman yang siap membimbing ibadah Anda secara profesional dan sesuai sunnah & tuntunan syariat."
+        description: "Seluruh rangkaian ibadah haji Anda akan didampingi secara penuh oleh Ustadz dan Muthawif yang berpengalaman serta bersertifikat, siap membimbing Anda secara profesional agar ibadah terlaksana sesuai dengan sunnah dan tuntunan syariat Islam."
       },
       {
         icon: "✈️",
         title: "Penerbangan Langsung & Aman",
-        description: "Terbang tanpa transit dengan maskapai eksekutif terbaik, menghemat waktu perjalanan dan tenaga Anda agar tetap bugar untuk beribadah."
+        description: "Nikmati kenyamanan perjalanan udara tanpa transit menggunakan maskapai eksekutif terbaik di kelasnya, yang dirancang untuk menghemat waktu perjalanan dan menjaga stamina Anda agar tetap bugar saat tiba di Tanah Suci."
       },
       {
         icon: "🏨",
         title: "Fasilitas Hotel Bintang 5",
-        description: "Akomodasi hotel bintang 5 selama di Mekah & Madinah dengan jarak dekat dari Masjidil Haram dan Masjid Nabawi untuk memaksimalkan waktu ibadah Anda."
+        description: "Istirahat yang nyaman di akomodasi hotel bintang 5 selama berada di Mekah dan Madinah, dengan lokasi yang sangat strategis dan dekat dari Masjidil Haram maupun Masjid Nabawi untuk memaksimalkan waktu ibadah Anda."
       },
       {
         icon: "🍽️",
         title: "Makan 3x Sehari",
-        description: "Nikmati hidangan makanan baik di hotel maupun di tenda dengan menu internasional dan nusantara yang lezat, bergizi dan higienis setiap hari."
+        description: "Kami menyajikan hidangan makanan lezat baik di hotel maupun di tenda dengan variasi menu internasional dan cita rasa nusantara yang menggugah selera, bergizi, dan dijamin kehigienisannya setiap hari untuk menunjang kesehatan Anda."
       }
     ]
   },
   problemAgitation: {
     title: "Ingin Menyempurnakan Rukun Islam, Namun Terhalang Antrian?",
-    description: "Setiap muslim pasti merindukan untuk bisa segera menunaikan rukun Islam kelima. Namun, realita antrian haji saat ini menjadi kendala terbesar.",
+    description: "Setiap muslim pasti merindukan untuk bisa segera menunaikan rukun Islam kelima, namun realita antrian haji yang begitu panjang seringkali menjadi kendala terbesar yang menghalangi niat suci untuk segera berangkat Haji Furoda 2026.",
     painPointsTitle: "Kendala yang Sering Dihadapi Calon Jamaah Haji",
     painPoints: [
-      "Antrian Haji Reguler bisa mencapai 20-30 tahun.",
-      "Haji Plus (ONH Plus) pun kini harus menunggu 5-7 tahun.",
-      "Usia semakin bertambah, fisik semakin menurun jika harus menunggu terlalu lama.",
-      "Kekhawatiran akan legalitas dokumen perjalanan haji yang marak bermasalah."
+      "Masa tunggu antrian Haji Reguler di Indonesia saat ini sudah sangat panjang, bahkan bisa mencapai 20 hingga 30 tahun lamanya.",
+      "Bahkan untuk program Haji Plus (ONH Plus) sekalipun, kini para calon jamaah masih harus bersabar menunggu antrian sekitar 5 hingga 7 tahun.",
+      "Kondisi usia yang semakin bertambah tua membuat fisik semakin menurun, sehingga dikhawatirkan tidak lagi prima jika harus menunggu terlalu lama.",
+      "Adanya kekhawatiran yang mendalam mengenai legalitas dokumen perjalanan haji yang belakangan ini marak bermasalah dan merugikan jamaah."
     ],
     solutionTitle: "Haji Furoda Tanpa Antri Adalah Solusinya",
     solutionPoints: [
-      "Berangkat tahun 2026 tanpa masa tunggu.",
-      "Legalitas aman dengan Visa Mujamalah.",
-      "Fasilitas premium untuk kenyamanan maksimal bagi lansia maupun keluarga.",
-      "Program perjalanan yang padat dan fokus pada kekhusyukan ibadah."
+      "Kepastian untuk bisa berangkat menunaikan ibadah haji pada tahun 2026 tanpa perlu melewati masa tunggu antrian yang memakan waktu bertahun-tahun.",
+      "Jaminan keamanan dan ketenangan hati dengan legalitas yang aman menggunakan Dokumen Perjalanan Mujamalah yang resmi dan terdaftar.",
+      "Menikmati fasilitas layanan premium yang dirancang khusus untuk memberikan kenyamanan maksimal, sangat cocok bagi jamaah lansia maupun keluarga.",
+      "Mengikuti program perjalanan ibadah yang disusun secara padat dan terstruktur agar Anda dapat fokus sepenuhnya pada kekhusyukan ibadah di Tanah Suci."
     ]
   },
   gallery: {

@@ -3,37 +3,37 @@ import type { LandingPageData } from '../types';
 export const ramadhanData: LandingPageData = {
   hero: {
     title: "Umroh Ramadhan 2026: Raih Lailatul Qadar di Tanah Suci",
-    subtitle: "Raih Keberkahan Malam Lailatul Qadar & Idul Fitri di Tanah Suci. Sebuah perjalanan spiritual yang tak terlupakan menanti Anda.",
+    subtitle: "Rasakan kenikmatan ibadah yang sesungguhnya dengan bergabung dalam program Umroh Ramadhan 2026, sebuah kesempatan emas untuk meraih kemuliaan malam Lailatul Qadar dan merayakan Idul Fitri yang penuh haru di Tanah Suci.",
     targetDate: "2026-02-18T00:00:00"
   },
   valueProposition: {
     title: "Mengapa Memilih Kami Untuk Perjalanan Suci Anda?",
-    subtitle: "Kami bukan hanya memberangkatkan, kami merancang setiap detail perjalanan agar Anda dapat beribadah dengan tenang, khusyuk, dan nyaman.",
+    subtitle: "Kami memahami bahwa ibadah di bulan suci membutuhkan ketenangan jiwa, itulah sebabnya kami merancang setiap detail perjalanan agar Anda dapat beribadah dengan khusyuk, nyaman, dan penuh makna.",
     features: [
-      { icon: '✈️', title: 'Penerbangan Langsung & Nyaman', description: 'Terbang tanpa transit dengan maskapai terbaik.' },
-      { icon: '🏨', title: 'Hotel Jarak Dekat', description: 'Berbuka puasa dengan pemandangan Masjidil Haram & Masjid Nabawi.' },
-      { icon: '👳‍♂️', title: 'Pembimbing Ibadah Profesional', description: 'Didampingi oleh Mutowwif & Ustadz berpengalaman.' },
-      { icon: '🍽️', title: 'Sajian Sahur & Buka Puasa', description: 'Nikmati hidangan sahur dan iftar dengan menu lezat.' },
-      { icon: '✨', title: 'Program Ramadhan Eksklusif', description: 'Ikuti kajian ilmu, i\'tikaf, dan program spesial lainnya.' },
-      { icon: '✅', title: 'Jaminan Keberangkatan', description: 'Sebagai travel berizin resmi, kami memberikan jaminan 100%.' }
+      { icon: '✈️', title: 'Penerbangan Langsung & Nyaman', description: 'Nikmati perjalanan udara yang tenang dan efisien tanpa transit menggunakan maskapai penerbangan berkelas dunia, sehingga Anda dapat tiba di Tanah Suci dengan kondisi fisik yang bugar.' },
+      { icon: '🏨', title: 'Hotel Jarak Dekat', description: 'Rasakan kemudahan beribadah dengan akomodasi hotel bintang 5 yang berjarak hanya beberapa langkah dari masjid, memungkinkan Anda untuk berbuka puasa dengan pemandangan Masjidil Haram & Masjid Nabawi.' },
+      { icon: '👳‍♂️', title: 'Pembimbing Ibadah Profesional', description: 'Perjalanan ibadah Anda akan didampingi secara intensif oleh Mutowwif dan Ustadz berpengalaman yang siap membimbing setiap rukun dan sunnah sesuai dengan tuntunan Rasulullah SAW.' },
+      { icon: '🍽️', title: 'Sajian Sahur & Buka Puasa', description: 'Manjakan lidah Anda saat sahur dan iftar dengan variasi menu masakan internasional maupun cita rasa nusantara yang lezat, bergizi, dan terjamin kehalalannya setiap hari.' },
+      { icon: '✨', title: 'Program Ramadhan Eksklusif', description: 'Perkaya rohani Anda melalui rangkaian kegiatan eksklusif seperti kajian ilmu mendalam, i\'tikaf bersama, dan program spesial lainnya yang dirancang untuk memaksimalkan pahala di bulan suci.' },
+      { icon: '✅', title: 'Jaminan Keberangkatan', description: 'Sebagai penyelenggara perjalanan ibadah umroh yang telah mengantongi izin resmi dari Kementerian Agama, kami memberikan garansi 100% kepastian keberangkatan demi ketenangan hati Anda.' }
     ]
   },
   problemAgitation: {
     title: "Sebuah Panggilan Jiwa, Bukan Sekadar Perjalanan Biasa",
-    description: "Bayangkan... Anda bersujud di Raudhah, shalat Tarawih di Masjidil Haram, dan berbuka puasa dengan jutaan umat Muslim dari seluruh dunia.",
+    description: "Pernahkah Anda membayangkan betapa indahnya bersujud di Raudhah saat bulan suci tiba, melaksanakan shalat Tarawih berjamaah di Masjidil Haram, dan berbuka puasa bersama jutaan saudara seiman dari penjuru dunia dalam suasana Umroh Ramadhan 2026 yang penuh berkah?",
     painPointsTitle: "Apakah Ini yang Anda Rasakan?",
     painPoints: [
-      "Rindu yang mendalam untuk kembali ke Baitullah.",
-      "Ingin merasakan Ramadhan yang lebih khusyuk dan bermakna.",
-      "Berharap meraih ampunan dan keberkahan Lailatul Qadar.",
-      "Mencari travel umroh yang amanah dan berpengalaman."
+      "Merasakan rindu yang begitu mendalam dan tak tertahankan untuk segera kembali bersimpuh di depan Baitullah.",
+      "Memiliki keinginan kuat untuk merasakan atmosfer Ramadhan yang jauh lebih khusyuk, syahdu, dan bermakna dibandingkan tahun-tahun sebelumnya.",
+      "Sangat berharap untuk bisa meraih ampunan dosa dan mendapatkan kemuliaan malam Lailatul Qadar di tempat yang paling mustajab.",
+      "Merasa kesulitan dan bingung dalam mencari travel umroh yang benar-benar amanah, berpengalaman, dan peduli pada kualitas ibadah jamaah."
     ],
     solutionTitle: "Keistimewaan Umroh Ramadhan",
     solutionPoints: [
-      "Pahala umroh setara dengan berhaji bersama Rasulullah ﷺ.",
-      "Kesempatan emas untuk berburu malam Lailatul Qadar.",
-      "Atmosfer spiritual yang tiada duanya di dunia.",
-      "Merasakan Idul Fitri yang penuh haru di Kota Suci."
+      "Mendapatkan pahala umroh yang setara dengan menunaikan ibadah haji bersama Rasulullah ﷺ, sebuah keutamaan yang luar biasa.",
+      "Memiliki kesempatan emas yang sangat langka untuk berburu dan meraih kemuliaan malam Lailatul Qadar di Tanah Haram.",
+      "Merasakan secara langsung atmosfer spiritual yang begitu kental dan tiada duanya di dunia, yang akan menggetarkan hati setiap insan beriman.",
+      "Mengalami momen Idul Fitri yang penuh haru dan kebahagiaan sejati bersama jutaan umat Islam lainnya di Kota Suci Mekkah."
     ]
   },
   gallery: {

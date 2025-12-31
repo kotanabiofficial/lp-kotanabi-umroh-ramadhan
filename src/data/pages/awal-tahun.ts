@@ -3,37 +3,37 @@ import type { LandingPageData } from '../types';
 export const awalTahunData: LandingPageData = {
   hero: {
     title: "Awali Tahun Baru dengan Umroh Berkah",
-    subtitle: "Mulai lembaran baru 2026 di Tanah Suci. Dapatkan ketenangan hati dan keberkahan sepanjang tahun dengan Umroh Awal Tahun.",
+    subtitle: "Mulailah lembaran baru dalam hidup Anda dengan langkah penuh berkah menuju Baitullah melalui Paket Umroh Awal Tahun 2026, sebuah awal yang sempurna untuk tahun yang lebih baik.",
     targetDate: "2026-01-15T00:00:00"
   },
   valueProposition: {
     title: "Kenapa Memilih Umroh Awal Tahun?",
-    subtitle: "Momentum terbaik untuk resolusi spiritual dan memulai tahun dengan langkah terbaik.",
+    subtitle: "Momentum terbaik untuk menyusun kembali resolusi spiritual dan memulai tahun dengan langkah terbaik di hadapan Ka'bah.",
     features: [
-      { icon: '✨', title: 'Resolusi Spiritual', description: 'Mulai tahun baru dengan doa terbaik di tempat mustajab.' },
-      { icon: '🌤️', title: 'Cuaca Bersahabat', description: 'Januari - Februari adalah musim dingin yang sejuk di Arab Saudi.' },
-      { icon: '📉', title: 'Harga Lebih Hemat', description: 'Harga cenderung lebih terjangkau dibandingkan peak season akhir tahun.' },
-      { icon: '🕋', title: 'Suasana Syahdu', description: 'Menghindari kepadatan ekstrem liburan sekolah akhir tahun.' },
-      { icon: '🛫', title: 'Seat Tersedia', description: 'Pilihan jadwal keberangkatan lebih banyak dan fleksibel.' },
-      { icon: '🤲', title: 'Bimbingan Intensif', description: 'Fokus ibadah lebih terjaga dengan suasana yang lebih tenang.' }
+      { icon: '✨', title: 'Resolusi Spiritual', description: 'Jadikan awal tahun sebagai momen yang tepat untuk memanjatkan doa terbaik dan menyusun resolusi hidup di tempat yang paling mustajab di muka bumi.' },
+      { icon: '🌤️', title: 'Cuaca Bersahabat', description: 'Nikmati suasana ibadah yang nyaman dengan cuaca sejuk musim dingin di Arab Saudi pada bulan Januari - Februari, membuat fisik Anda tidak mudah lelah.' },
+      { icon: '📉', title: 'Harga Lebih Hemat', description: 'Dapatkan penawaran harga paket yang cenderung lebih terjangkau dibandingkan dengan peak season akhir tahun, memberikan Anda kesempatan berhemat untuk kebutuhan lainnya.' },
+      { icon: '🕋', title: 'Suasana Syahdu', description: 'Rasakan kekhusyukan ibadah yang lebih mendalam dengan menghindari kepadatan ekstrem yang biasanya terjadi pada musim liburan sekolah akhir tahun.' },
+      { icon: '🛫', title: 'Seat Tersedia', description: 'Anda memiliki keleluasaan lebih dalam memilih jadwal keberangkatan karena ketersediaan kursi pesawat yang lebih banyak dan fleksibel di awal tahun.' },
+      { icon: '🤲', title: 'Bimbingan Intensif', description: 'Fokus ibadah Anda akan lebih terjaga dengan bimbingan intensif dari Muthawwif dalam suasana Tanah Suci yang relatif lebih tenang dan kondusif.' }
     ]
   },
   problemAgitation: {
     title: "Tahun Baru, Semangat Baru, Tapi Ibadah Masih Segitu Saja?",
-    description: "Jangan biarkan 2026 berlalu seperti tahun-tahun sebelumnya. Jadikan awal tahun ini momentum perubahan terbesar dalam hidup Anda.",
+    description: "Jangan biarkan semangat tahun baru memudar begitu saja tanpa makna, jadikan momen ini sebagai titik balik spiritual Anda dengan mendaftar Paket Umroh Awal Tahun 2026 sekarang juga.",
     painPointsTitle: "Renungan Awal Tahun",
     painPoints: [
-      "Merasa target ibadah tahun lalu banyak yang tidak tercapai.",
-      "Khawatir umur terus berkurang tapi bekal akhirat belum cukup.",
-      "Butuh ketenangan jiwa untuk menghadapi tantangan hidup di tahun baru.",
-      "Rindu bermunajat langsung di depan Ka'bah untuk keberkahan setahun kedepan."
+      "Perasaan kecewa karena menyadari bahwa target ibadah di tahun lalu banyak yang tidak tercapai, dan takut hal yang sama terulang kembali.",
+      "Kekhawatiran yang mendalam mengingat umur yang terus berkurang setiap tahunnya, namun bekal untuk kehidupan akhirat dirasa belum mencukupi.",
+      "Kebutuhan mendesak akan ketenangan jiwa dan kekuatan spiritual untuk menghadapi berbagai tantangan hidup yang mungkin terjadi di tahun yang baru.",
+      "Kerinduan yang tak tertahankan untuk bisa bermunajat dan mengadu langsung kepada Allah di depan Ka'bah demi keberkahan hidup setahun kedepan."
     ],
     solutionTitle: "Solusi Terbaik: Awali di Tanah Suci",
     solutionPoints: [
-      "Start Strong: Awali tahun dengan langkah terbaik menuju Rumah Allah.",
-      "Charge Iman: Dapatkan energi spiritual baru untuk menjalani 2026.",
-      "Doa Mustajab: Langitkan hajat & resolusi tahun baru di tempat yang paling dicintai Allah.",
-      "Muhasabah Total: Evaluasi diri & bertaubat dengan khusyuk di Tanah Suci."
+      "Start Strong: Awali langkah pertama Anda di tahun ini dengan perjalanan menuju Rumah Allah, sebuah simbol komitmen kuat untuk menjadi pribadi yang lebih baik.",
+      "Charge Iman: Dapatkan suntikan energi spiritual baru yang dahsyat untuk menjalani hari-hari di tahun 2026 dengan penuh keyakinan dan optimisme.",
+      "Doa Mustajab: Langitkan segala hajat, harapan, dan resolusi tahun baru Anda di tempat-tempat yang paling dicintai Allah agar dikabulkan.",
+      "Muhasabah Total: Lakukan evaluasi diri secara menyeluruh dan bertaubat dengan penuh kekhusyukan di Tanah Suci untuk membersihkan hati dari dosa masa lalu."
     ]
   },
   gallery: {

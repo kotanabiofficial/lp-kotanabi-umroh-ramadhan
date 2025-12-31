@@ -2,38 +2,38 @@ import type { LandingPageData } from '../types';
 
 export const akhirTahunData: LandingPageData = {
   hero: {
-    title: "Wujudkan Impian Umroh Akhir Tahun Anda di Tanah Suci",
-    subtitle: "Sambut pergantian tahun dengan pengalaman spiritual tak terlupakan. Bergabunglah dengan perjalanan Umroh Akhir Tahun kami.",
+    title: "Paket Umroh Akhir Tahun 2025: Liburan Berkah",
+    subtitle: "Tutup tahun ini dengan kenangan terindah melalui Paket Umroh Akhir Tahun 2025, sebuah perjalanan spiritual untuk bermuhasabah dan menyongsong tahun baru dengan semangat ibadah yang lebih baik di Tanah Suci.",
     targetDate: "2025-12-20T00:00:00"
   },
   valueProposition: {
     title: "Kenapa Umroh Akhir Tahun Bersama Kami?",
-    subtitle: "Liburan sekolah dan akhir tahun yang penuh makna untuk keluarga Anda.",
+    subtitle: "Kami menghadirkan solusi liburan sekolah dan akhir tahun yang penuh makna, aman, dan nyaman untuk seluruh anggota keluarga Anda.",
     features: [
-      { icon: '👨‍👩‍👧‍👦', title: 'Ramah Keluarga', description: 'Program khusus yang nyaman untuk anak-anak dan lansia.' },
-      { icon: '❄️', title: 'Cuaca Sejuk', description: 'Desember adalah waktu dengan cuaca terbaik di Tanah Suci.' },
-      { icon: '🏫', title: 'Edukasi Islami', description: 'City tour sejarah nabi yang mendidik untuk buah hati.' },
-      { icon: '🏨', title: 'Hotel Strategis', description: 'Akses mudah ke Masjidil Haram untuk shalat 5 waktu.' },
-      { icon: '✈️', title: 'Penerbangan Direct', description: 'Meminimalisir kelelahan perjalanan.' },
-      { icon: '🤝', title: 'Pembimbing Sabar', description: 'Mutowwif yang mengerti kebutuhan keluarga.' }
+      { icon: '👨‍👩‍👧‍👦', title: 'Ramah Keluarga', description: 'Program perjalanan kami dirancang khusus dengan ritme yang santai dan fasilitas ramah anak serta lansia, memastikan seluruh keluarga dapat beribadah dengan nyaman tanpa kelelahan yang berarti.' },
+      { icon: '❄️', title: 'Cuaca Sejuk', description: 'Bulan Desember adalah waktu terbaik untuk berkunjung ke Tanah Suci karena cuacanya yang sejuk dan bersahabat, sangat ideal untuk melakukan tawaf dan sa\'i tanpa tersengat panas matahari.' },
+      { icon: '🏫', title: 'Edukasi Islami', description: 'Berikan pengalaman berharga bagi buah hati Anda melalui city tour sejarah nabi yang mendidik, menanamkan kecintaan pada Rasulullah SAW secara langsung di tempat perjuangan beliau.' },
+      { icon: '🏨', title: 'Hotel Strategis', description: 'Nikmati kemudahan akses beribadah dengan pilihan hotel yang berlokasi strategis dan dekat dengan Masjidil Haram, memudahkan Anda untuk menjaga shalat 5 waktu berjamaah di masjid.' },
+      { icon: '✈️', title: 'Penerbangan Direct', description: 'Kami menggunakan penerbangan langsung tanpa transit untuk meminimalisir kelelahan perjalanan, sehingga Anda dapat tiba di tujuan dengan kondisi fisik yang tetap prima dan siap beribadah.' },
+      { icon: '🤝', title: 'Pembimbing Sabar', description: 'Anda akan didampingi oleh Mutowwif berpengalaman yang tidak hanya berilmu, tetapi juga sabar dan mengerti kebutuhan keluarga, siap membantu segala keperluan ibadah Anda selama di Tanah Suci.' }
     ]
   },
   problemAgitation: {
     title: "Liburan Akhir Tahun Biasanya Hanya Hura-hura?",
-    description: "Ubah kebiasaan lama. Jadikan momen pergantian tahun sebagai titik balik spiritual Anda dan keluarga.",
+    description: "Seringkali kita menghabiskan momen pergantian tahun dengan perayaan yang sifatnya sementara dan kurang bermakna, padahal ada pilihan yang jauh lebih mulia yaitu mendaftar Paket Umroh Akhir Tahun 2025 untuk keberkahan hidup.",
     painPointsTitle: "Renungan Akhir Tahun",
     painPoints: [
-      "Merasa liburan akhir tahun biasanya kurang bermakna.",
-      "Ingin memberikan edukasi agama nyata untuk anak-anak.",
-      "Butuh ketenangan dari hiruk pikuk pekerjaan setahun ini.",
-      "Ingin memulai tahun baru dengan doa di tempat mustajab."
+      "Perasaan hampa karena liburan akhir tahun yang biasanya hanya diisi dengan kegiatan hiburan semata tanpa memberikan ketenangan jiwa yang sesungguhnya.",
+      "Keinginan mendalam orang tua untuk memberikan edukasi agama yang nyata dan membekas di hati anak-anak, bukan sekadar teori di sekolah.",
+      "Kebutuhan akan ketenangan batin dan detoksifikasi spiritual dari hiruk pikuk pekerjaan dan rutinitas duniawi yang melelahkan sepanjang tahun ini.",
+      "Harapan untuk memulai lembaran tahun baru dengan memanjatkan doa-doa terbaik di tempat-tempat mustajab di hadapan Ka'bah."
     ],
     solutionTitle: "Solusi Perjalanan Berkah",
     solutionPoints: [
-      "Muhasabah diri di depan Ka'bah.",
-      "Mempererat bonding keluarga dalam ketaatan.",
-      "Mengunjungi tempat-tempat bersejarah Islam.",
-      "Pulang dengan semangat baru dan hati yang bersih."
+      "Kesempatan emas untuk melakukan muhasabah diri dan bertaubat di depan Ka'bah, membersihkan hati menyambut tahun yang baru.",
+      "Mempererat ikatan kasih sayang (bonding) antar anggota keluarga dalam suasana ketaatan dan ibadah bersama yang mengharukan.",
+      "Mengunjungi berbagai tempat bersejarah Islam yang akan menambah wawasan dan keimanan seluruh anggota keluarga.",
+      "Pulang ke tanah air dengan semangat baru, hati yang bersih, dan pribadi yang lebih baik setelah menjalani ibadah yang khusyuk."
     ]
   },
   gallery: {

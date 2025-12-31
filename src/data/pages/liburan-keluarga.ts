@@ -2,38 +2,38 @@ import type { LandingPageData } from '../types';
 
 export const liburanKeluargaData: LandingPageData = {
   hero: {
-    title: "Liburan Penuh Makna: Umroh 2026 Bersama Keluarga",
-    subtitle: "Jadikan liburan sekolah momen terbaik untuk mendekatkan keluarga kepada Allah 'Azza wa Jalla dan ajaran Islam. Paket hemat mulai Rp25 Jutaan, fasilitas ramah anak.",
+    title: "Liburan Keluarga Penuh Makna: Umroh 2026 Bersama KotaNabi",
+    subtitle: "Jadikan liburan sekolah kali ini sebagai momen terbaik untuk mendekatkan diri kepada Allah melalui Paket Umroh Liburan Keluarga 2026, dengan penawaran harga hemat mulai Rp25 Jutaan dan fasilitas yang ramah anak.",
     targetDate: "2026-06-22T00:00:00"
   },
   valueProposition: {
     title: "Mengapa Umroh Liburan Keluarga 2026?",
     subtitle: "Investasi akhirat terbaik untuk keluarga Anda di musim liburan sekolah.",
     features: [
-      { icon: '👨‍👩‍👧‍👦', title: 'Bonding Keluarga', description: 'Pererat hubungan keluarga dalam suasana ibadah yang syahdu di Tanah Suci.' },
-      { icon: '📚', title: 'Edukasi Nyata', description: 'Kenalkan sejarah Islam secara langsung kepada anak-anak di Mekkah & Madinah.' },
-      { icon: '💰', title: 'Harga Terjangkau', description: 'Mulai Rp25 Jutaan, solusi liburan hemat namun bernilai pahala tak terhingga.' },
-      { icon: '🗓️', title: 'Waktu Ideal', description: 'Bertepatan dengan liburan sekolah Juni - Juli 2026, tanpa mengganggu sekolah anak.' },
-      { icon: '🏨', title: 'Fasilitas Nyaman', description: 'Akomodasi dan transportasi yang dipilih khusus untuk kenyamanan keluarga & lansia.' },
-      { icon: '🤝', title: 'Pembimbing Sabar', description: 'Muthawwif berpengalaman menangani jamaah keluarga dan anak-anak.' }
+      { icon: '👨‍👩‍👧‍👦', title: 'Bonding Keluarga', description: 'Pererat hubungan kasih sayang antar anggota keluarga dalam suasana ibadah yang syahdu, penuh ketenangan, dan keberkahan yang melimpah di Tanah Suci Mekkah dan Madinah.' },
+      { icon: '📚', title: 'Edukasi Nyata', description: 'Berikan pengalaman edukasi sejarah Islam yang nyata dan tak terlupakan secara langsung kepada anak-anak Anda dengan mengunjungi situs-situs bersejarah di kota Mekkah dan Madinah.' },
+      { icon: '💰', title: 'Harga Terjangkau', description: 'Nikmati penawaran paket hemat mulai dari Rp25 Jutaan, sebuah solusi cerdas untuk liburan keluarga yang tidak hanya menyenangkan tetapi juga bernilai pahala tak terhingga di sisi Allah.' },
+      { icon: '🗓️', title: 'Waktu Ideal', description: 'Jadwal keberangkatan yang dirancang khusus bertepatan dengan liburan sekolah Juni - Juli 2026, sehingga Anda dapat beribadah dengan tenang tanpa perlu khawatir mengganggu kegiatan sekolah anak.' },
+      { icon: '🏨', title: 'Fasilitas Nyaman', description: 'Kami menyediakan akomodasi hotel dan transportasi bus yang telah dipilih secara khusus untuk menjamin kenyamanan maksimal bagi seluruh anggota keluarga, termasuk anak-anak dan lansia.' },
+      { icon: '🤝', title: 'Pembimbing Sabar', description: 'Perjalanan Anda akan didampingi oleh Muthawwif yang tidak hanya berpengalaman, tetapi juga memiliki kesabaran tinggi dalam menangani kebutuhan khusus jamaah yang membawa keluarga dan anak-anak.' }
     ]
   },
   problemAgitation: {
     title: "Bingung Mau Liburan Kemana Tahun Depan?",
-    description: "Liburan sekolah seringkali habis untuk hal yang kurang bermanfaat atau sekadar jalan-jalan biasa. Tahun 2026, buatlah berbeda.",
+    description: "Seringkali liburan sekolah berlalu begitu saja tanpa meninggalkan kesan mendalam, atau habis untuk hal yang kurang bermanfaat. Tahun 2026, buatlah keputusan berbeda dengan mengambil Paket Umroh Liburan Keluarga 2026 yang penuh berkah.",
     painPointsTitle: "Dilema Liburan Keluarga",
     painPoints: [
-      "Biaya liburan ke luar negeri semakin mahal tapi kurang berkesan.",
-      "Anak-anak lebih asyik dengan gadget daripada berkumpul dengan keluarga.",
-      "Ingin mengenalkan agama ke anak tapi kesulitan mencari momen yang pas.",
-      "Khawatir ibadah terganggu karena repot mengurus kebutuhan keluarga saat traveling."
+      "Biaya liburan ke destinasi wisata luar negeri yang semakin hari semakin mahal, namun pengalaman yang didapatkan seringkali terasa kurang berkesan di hati.",
+      "Anak-anak zaman sekarang yang cenderung lebih asyik dengan dunia gadget mereka sendiri daripada meluangkan waktu berkualitas untuk berkumpul dan bercengkrama dengan keluarga.",
+      "Keinginan besar orang tua untuk mengenalkan nilai-nilai agama kepada anak sejak dini, namun seringkali kesulitan mencari momen dan cara yang paling tepat.",
+      "Kekhawatiran akan terganggunya kekhusyukan ibadah karena merasa repot harus mengurus segala kebutuhan keluarga sendirian saat melakukan traveling."
     ],
     solutionTitle: "Solusi: Umroh Keluarga 2026",
     solutionPoints: [
-      "Wisata Rohani: Gabungkan traveling dan ibadah dalam satu perjalanan tak terlupakan.",
-      "Detox Gadget: Alihkan fokus anak pada keagungan Ka'bah dan Masjid Nabawi.",
-      "Pelajaran Hidup: Tanamkan nilai tauhid dan sejarah Nabi sejak dini dengan pengalaman langsung.",
-      "Terurus & Terjamin: Fokus ibadah, biarkan kami yang mengurus teknis perjalanan Anda sekeluarga."
+      "Wisata Rohani: Menggabungkan keseruan traveling mengunjungi tempat baru dan kekhusyukan ibadah dalam satu paket perjalanan yang tak akan terlupakan seumur hidup.",
+      "Detox Gadget: Mengalihkan fokus dan perhatian anak dari layar gadget kepada keagungan Ka'bah dan kemegahan Masjid Nabawi yang memukau jiwa.",
+      "Pelajaran Hidup: Menanamkan nilai-nilai tauhid yang kuat dan mengenalkan sejarah perjuangan Nabi secara langsung sejak dini melalui pengalaman nyata di lapangan.",
+      "Terurus & Terjamin: Anda bisa fokus beribadah dengan tenang, biarkan tim profesional kami yang mengurus seluruh teknis perjalanan dan kebutuhan Anda sekeluarga."
     ]
   },
   gallery: {
