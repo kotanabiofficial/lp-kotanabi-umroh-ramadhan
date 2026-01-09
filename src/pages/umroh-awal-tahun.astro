@@ -65,9 +65,7 @@ const schemaData = {
         />
 
         <Packages
-          title="Pilihan Paket Umroh Awal Tahun 2026"
-          subtitle="Awali tahun dengan langkah terbaik menuju Baitullah. Pilih paket yang sesuai dengan kebutuhan Anda."
-          data={awalTahunData.packages}
+          {...awalTahunData.packages}
         />
 
         <div id="registration-form">
@@ -75,7 +73,7 @@ const schemaData = {
                 client:load 
                 title="Daftar Umroh Awal Tahun Sekarang"
                 description="Amankan seat Anda untuk keberangkatan Januari - Februari 2026. Isi form di bawah ini untuk konsultasi gratis."
-                packages={awalTahunData.packages}
+                packages={awalTahunData.packages.items}
                 formSource="Landing Page Awal Tahun"
                 programName="Umroh Awal Tahun"
             />

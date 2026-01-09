@@ -3,7 +3,7 @@ import type { LandingPageData } from '../types';
 export const liburanKeluargaData: LandingPageData = {
   hero: {
     title: "Umroh Liburan Keluarga 2026",
-    subtitle: "Jadikan liburan sekolah kali ini sebagai momen terbaik untuk mendekatkan diri kepada Allah melalui Paket Umroh Liburan Keluarga 2026, dengan penawaran harga hemat mulai Rp25 Jutaan dan fasilitas yang ramah anak.",
+    subtitle: "Jadikan liburan sekolah kali ini sebagai momen terbaik untuk mendekatkan diri kepada Allah Subhanahu wa Ta'ala melalui program Umroh Liburan Keluarga 2026 bersama travel umroh resmi dan terpercaya. Tersedia berbagai pilihan paket dengan penawaran harga hemat mulai Rp25 Jutaan dan fasilitas yang ramah anak.",
     targetDate: "2026-06-22T00:00:00"
   },
   valueProposition: {
@@ -20,7 +20,7 @@ export const liburanKeluargaData: LandingPageData = {
   },
   problemAgitation: {
     title: "Bingung Mau Liburan Kemana Selama Tahun 2026?",
-    description: "Seringkali liburan sekolah berlalu begitu saja tanpa meninggalkan kesan mendalam, atau habis untuk hal yang kurang bermanfaat. Tahun 2026, buatlah keputusan berbeda dengan mengambil Paket Umroh Liburan Keluarga 2026 yang penuh berkah.",
+    description: "Seringkali liburan sekolah berlalu begitu saja tanpa meninggalkan kesan mendalam, atau habis untuk hal-hal yang kurang bermanfaat. Tahun 2026, buatlah keputusan berbeda dengan mengikuti program Umroh Liburan bersama Keluarga.",
     painPointsTitle: "Dilema Liburan Keluarga",
     painPoints: [
       "Biaya liburan ke destinasi wisata luar negeri yang semakin hari semakin mahal, namun pengalaman yang didapatkan seringkali terasa kurang berkesan di hati.",
@@ -74,9 +74,12 @@ export const liburanKeluargaData: LandingPageData = {
     buttonText: "Chat Tim Kami",
     whatsappMessage: "Assalamualaikum, saya ingin info Paket Umroh Liburan Sekolah & Keluarga 2026."
   },
-  packages: [
+  packages: {
+    title: "Paket Umroh Liburan Keluarga 2026",
+    subtitle: "Pilihan terbaik untuk mengisi liburan sekolah dengan keberkahan. Segera amankan seat Umroh Liburan Keluarga 2026, kuota terbatas!",
+    items: [
     {
-      name: 'Umroh Syawal Plus Hainan by AQU Tour Travel',
+      name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
       duration: '11 Hari',
       price: 'Rp26,9 Jutaan',
       features: ['Umroh Syawal Hemat', 'Plus Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hotel Dekat Masjid', 'Travel AQU Tour'],
@@ -121,4 +124,5 @@ export const liburanKeluargaData: LandingPageData = {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Liburan Sekolah Juli 2026*.'
     }
   ]
+  }
 };

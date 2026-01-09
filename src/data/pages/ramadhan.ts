@@ -74,9 +74,12 @@ export const ramadhanData: LandingPageData = {
     buttonText: "Chat di WhatsApp",
     whatsappMessage: "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya."
   },
-  packages: [
+  packages: {
+    title: "Pilihan Paket Umroh Ramadhan 2026 Terbaik",
+    subtitle: "Yuk bergabung di program Umroh Ramadhan 2026 - Raih Pahala dan Keberkahan di Tanah Suci. Pilih paket yang sesuai dengan kebutuhan ibadah Anda di bulan suci!",
+    items: [
     {
-      name: 'Umroh Awal Ramadhan',
+      name: 'Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour',
       duration: '9 Hari',
       price: 'Mulai dari Rp28 Jt-an',
       features: ['Hotel Bintang 4 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel AQU Tour'],
@@ -157,4 +160,5 @@ export const ramadhanData: LandingPageData = {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
     },
   ]
+  }
 };

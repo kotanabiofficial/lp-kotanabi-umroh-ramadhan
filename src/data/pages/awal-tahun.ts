@@ -74,7 +74,10 @@ export const awalTahunData: LandingPageData = {
     buttonText: "Info Paket Awal Tahun",
     whatsappMessage: "Assalamualaikum, saya ingin info detail promo Paket Umroh Awal Tahun."
   },
-  packages: [
+  packages: {
+    title: "Pilihan Paket Umroh Awal Tahun 2026",
+    subtitle: "Awali tahun dengan langkah terbaik menuju Baitullah. Pilih paket yang sesuai dengan kebutuhan Anda.",
+    items: [
     {
       name: 'Umroh Awal Tahun Hemat',
       duration: '9 Hari',
@@ -103,4 +106,5 @@ export const awalTahunData: LandingPageData = {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Tahun VIP*.'
     }
   ]
+  }
 };

@@ -66,9 +66,7 @@ const schemaData = {
         />
 
         <Packages
-          title="Paket Umroh Liburan Keluarga 2026"
-          subtitle="Pilihan terbaik untuk mengisi liburan sekolah dengan keberkahan. Seat terbatas!"
-          data={liburanKeluargaData.packages}
+          {...liburanKeluargaData.packages}
         />
 
         <div id="registration-form">
@@ -76,7 +74,7 @@ const schemaData = {
                 client:load 
                 title="Amankan Seat Liburan Keluarga"
                 description="Kuota liburan sekolah sangat cepat terisi. Isi form untuk konsultasi dan booking jadwal pilihan Anda."
-                packages={liburanKeluargaData.packages}
+                packages={liburanKeluargaData.packages.items}
                 formSource="Landing Page Liburan Keluarga"
                 programName="Umroh Liburan Keluarga 2026"
             />

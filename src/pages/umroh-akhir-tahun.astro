@@ -46,12 +46,11 @@ const schemaData = {
           subtitle={akhirTahunData.hero.subtitle}
           targetDate={targetDate}
         />
+        
         <TrustBadges logos={siteConfig.trustBadges} />
         
         <Packages 
-          title="Pilihan Paket Umroh Akhir Tahun Terbaik" 
-          subtitle="Temukan paket Umroh Akhir Tahun yang sesuai dengan kebutuhan dan budget Anda. Ketersediaan terbatas!"
-          data={akhirTahunData.packages} 
+          {...akhirTahunData.packages}
         />
         
         <ValueProposition 

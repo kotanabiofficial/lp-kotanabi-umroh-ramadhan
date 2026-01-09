@@ -65,5 +65,9 @@ export interface LandingPageData {
     buttonText: string;
     whatsappMessage: string;
   };
-  packages: PackageData[];
+  packages: {
+    title: string;
+    subtitle: string;
+    items: PackageData[];
+  };
 }
