@@ -91,7 +91,7 @@ export const ramadhanData: LandingPageData = {
       name: 'Umroh Full Ramadhan',
       duration: '35 Hari',
       price: 'Mulai dari Rp33 Jt-an',
-      features: ['Program Full Ramadhan MURAH', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
+      features: ['Program Full Ramadhan HEMAT', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
       isPopular: true,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
