@@ -13,10 +13,10 @@ import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { awalTahunData } from '../data/pages/awal-tahun';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
-const title = "Umroh Awal Tahun 2026: Awali Tahun Baru dengan Ibadah | KotaNabi";
-const description = "Paket Umroh Awal Tahun 2026 KotaNabi. Mulai tahun baru dengan keberkahan di Tanah Suci. Harga hemat, fasilitas nyaman, pembimbing berpengalaman.";
+const title = "Paket Umroh Awal Tahun 2026: Berkah Tahun Baru | KotaNabi";
+const description = "Awali 2026 dengan Umroh Awal Tahun bersama KotaNabi. Paket hemat, fasilitas nyaman, bimbingan sunnah. Raih keberkahan tahun baru di Tanah Suci. Daftar!";
 const targetDate = new Date(awalTahunData.hero.targetDate);
 
 const schemaData = {
@@ -25,12 +25,14 @@ const schemaData = {
   "name": "KotaNabi - Paket Umroh Awal Tahun",
   "description": description,
   "url": "https://lp.kotanabi.com/umroh-awal-tahun",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": siteConfig.phone.display,
+    "contactType": "customer service"
+  },
   "priceRange": "$$$",
   "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
 };
-
-
-
 ---
 
 <Layout title={title} description={description}>
@@ -45,7 +47,7 @@ const schemaData = {
           targetDate={targetDate}
         />
 
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
 
         <ProblemAgitation
             title={awalTahunData.problemAgitation.title}

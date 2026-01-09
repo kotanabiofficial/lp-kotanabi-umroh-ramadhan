@@ -6,6 +6,7 @@ import TrustBadges from '../components/TrustBadges';
 import ProblemAgitation from '../components/ProblemAgitation';
 import ValueProposition from '../components/ValueProposition';
 import Packages from '../components/Packages';
+import RegistrationForm from '../components/RegistrationForm';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 import Faq from '../components/Faq';
@@ -13,12 +14,12 @@ import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { ramadhanData } from '../data/pages/ramadhan';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
 const targetDate = new Date(ramadhanData.hero.targetDate);
 ---
 
-<Layout title="Promo Paket Umroh Ramadhan 2026 Biaya Terjangkau | Raih Keberkahan di Tanah Suci" description="Wujudkan impian umroh di bulan Ramadhan 2026 bersama biro travel resmi amanah dan terpercaya, biaya umroh terjangkau mulai Rp28 jutaan.">
+<Layout title="Paket Umroh Ramadhan 2026: Hemat & Berkah | KotaNabi" description="Wujudkan impian Umroh Ramadhan 2026 bersama travel resmi & amanah. Paket hemat mulai Rp28 Juta. Fasilitas nyaman, bimbingan sunnah. Daftar sekarang!">
     <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
       <Header client:load />
       <main>
@@ -27,8 +28,20 @@ const targetDate = new Date(ramadhanData.hero.targetDate);
           subtitle={ramadhanData.hero.subtitle}
           targetDate={targetDate}
         />
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
         <Packages data={ramadhanData.packages} />
+
+        <div id="registration-form" class="bg-gray-50">
+            <RegistrationForm 
+                client:load 
+                title="Amankan Seat Umroh Ramadhan 2026"
+                description="Kuota Umroh Ramadhan, terutama paket Itikaf & Full Ramadhan, sangat cepat terisi (Batch 1 sudah penuh!). Isi form di bawah untuk konsultasi dan booking seat Batch 2."
+                packages={ramadhanData.packages}
+                formSource="Landing Page Ramadhan Index"
+                programName="Umroh Ramadhan 2026"
+            />
+        </div>
+
         <ValueProposition 
             title={ramadhanData.valueProposition.title}
             subtitle={ramadhanData.valueProposition.subtitle}

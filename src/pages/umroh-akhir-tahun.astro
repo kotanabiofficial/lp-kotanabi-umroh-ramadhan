@@ -13,10 +13,10 @@ import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { akhirTahunData } from '../data/pages/akhir-tahun';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
-const title = "Umroh Akhir Tahun 2025: Paket Spesial Liburan di Tanah Suci | KotaNabi";
-const description = "Wujudkan impian Umroh Akhir Tahun Anda dengan paket spesial KotaNabi. Nikmati pengalaman spiritual tak terlupakan di Tanah Suci. Daftar sekarang!";
+const title = "Paket Umroh Akhir Tahun 2025: Liburan Berkah | KotaNabi";
+const description = "Paket Umroh Akhir Tahun 2025 spesial liburan. Fasilitas nyaman, bimbingan sunnah, harga hemat. Wujudkan resolusi ibadah Anda bersama KotaNabi. Daftar!";
 const targetDate = new Date(akhirTahunData.hero.targetDate);
 
 const schemaData = {
@@ -25,6 +25,11 @@ const schemaData = {
   "name": "KotaNabi - Paket Umroh Akhir Tahun",
   "description": description,
   "url": "https://lp.kotanabi.com/umroh-akhir-tahun",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": siteConfig.phone.display,
+    "contactType": "customer service"
+  },
   "priceRange": "$$$",
   "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
 };
@@ -41,7 +46,7 @@ const schemaData = {
           subtitle={akhirTahunData.hero.subtitle}
           targetDate={targetDate}
         />
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
         
         <Packages 
           title="Pilihan Paket Umroh Akhir Tahun Terbaik" 

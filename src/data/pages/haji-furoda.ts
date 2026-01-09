@@ -3,7 +3,7 @@ import type { LandingPageData } from '../types';
 export const hajiFurodaData: LandingPageData = {
   hero: {
     title: "Haji Furoda 2026 Tanpa Antri",
-    subtitle: "Wujudkan Impian Berhaji Tahun Ini dengan Visa Resmi Mujamalah. Fasilitas Hotel Bingtang 5, Bimbingan Ibadah Sesuai Sunnah, dan InsyaAllah Jaminan Kepastian Berangkat Bersama Travel PIHK Resmi Jana Madinah Wisata.",
+    subtitle: "Wujudkan impian suci Anda untuk berhaji tahun ini juga melalui program Haji Furoda 2026 tanpa antri, dengan jaminan Dokumen Perjalanan Resmi Mujamalah dan fasilitas VVIP bintang 5 yang memberikan kenyamanan maksimal serta bimbingan ibadah sesuai sunnah bersama Jana Madinah Wisata.",
     targetDate: "2026-06-15T00:00:00", // Approximate Hajj date for 2026
     bgImage: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
   },
@@ -14,51 +14,51 @@ export const hajiFurodaData: LandingPageData = {
       {
         icon: "⚡",
         title: "Tanpa Antri (Langsung Berangkat)",
-        description: "Tidak perlu menunggu antrian lama hingga puluhan tahun. Daftar tahun ini, InsyaAllah berangkat tahun ini juga dengan Visa Mujamalah resmi."
+        description: "Anda tidak perlu lagi menunggu antrian haji reguler yang mencapai puluhan tahun, karena dengan mendaftar tahun ini, InsyaAllah Anda bisa langsung berangkat menunaikan ibadah haji tahun ini juga menggunakan Dokumen Perjalanan Mujamalah resmi."
       },
       {
         icon: "✅",
         title: "Visa Resmi & Terjamin",
-        description: "Kami menggunakan Visa Mujamalah (Furoda) yang terdaftar resmi di sistem e-Hajj Arab Saudi. Transparansi dan keamanan adalah prioritas kami."
+        description: "Kami menjamin penggunaan Dokumen Perjalanan Mujamalah (Furoda) yang terdaftar secara resmi dan sah di dalam sistem e-Hajj Kerajaan Arab Saudi, sehingga transparansi dan keamanan legalitas perjalanan Anda menjadi prioritas utama kami."
       },
       {
         icon: "👳‍♂️",
         title: "Pembimbing Bersertifikat",
-        description: "Didampingi oleh Ustadz dan Muthawif berpengalaman yang siap membimbing ibadah Anda secara profesional dan sesuai sunnah & tuntunan syariat."
+        description: "Seluruh rangkaian ibadah haji Anda akan didampingi secara penuh oleh Ustadz dan Muthawif yang berpengalaman serta bersertifikat, siap membimbing Anda secara profesional agar ibadah terlaksana sesuai dengan sunnah dan tuntunan syariat Islam."
       },
       {
         icon: "✈️",
         title: "Penerbangan Langsung & Aman",
-        description: "Terbang tanpa transit dengan maskapai eksekutif terbaik, menghemat waktu perjalanan dan tenaga Anda agar tetap bugar untuk beribadah."
+        description: "Nikmati kenyamanan perjalanan udara tanpa transit menggunakan maskapai eksekutif terbaik di kelasnya, yang dirancang untuk menghemat waktu perjalanan dan menjaga stamina Anda agar tetap bugar saat tiba di Tanah Suci."
       },
       {
         icon: "🏨",
         title: "Fasilitas Hotel Bintang 5",
-        description: "Akomodasi hotel bintang 5 selama di Mekah & Madinah dengan jarak dekat dari Masjidil Haram dan Masjid Nabawi untuk memaksimalkan waktu ibadah Anda."
+        description: "Istirahat yang nyaman di akomodasi hotel bintang 5 selama berada di Mekah dan Madinah, dengan lokasi yang sangat strategis dan dekat dari Masjidil Haram maupun Masjid Nabawi untuk memaksimalkan waktu ibadah Anda."
       },
       {
         icon: "🍽️",
         title: "Makan 3x Sehari",
-        description: "Nikmati hidangan makanan baik di hotel maupun di tenda dengan menu internasional dan nusantara yang lezat, bergizi dan higienis setiap hari."
+        description: "Kami menyajikan hidangan makanan lezat baik di hotel maupun di tenda dengan variasi menu internasional dan cita rasa nusantara yang menggugah selera, bergizi, dan dijamin kehigienisannya setiap hari untuk menunjang kesehatan Anda."
       }
     ]
   },
   problemAgitation: {
     title: "Ingin Menyempurnakan Rukun Islam, Namun Terhalang Antrian?",
-    description: "Setiap muslim pasti merindukan untuk bisa segera menunaikan rukun Islam kelima. Namun, realita antrian haji saat ini menjadi kendala terbesar.",
+    description: "Setiap muslim pasti merindukan untuk bisa segera menunaikan rukun Islam kelima, namun realita antrian haji yang begitu panjang seringkali menjadi kendala terbesar yang menghalangi niat suci untuk segera berangkat Haji Furoda 2026.",
     painPointsTitle: "Kendala yang Sering Dihadapi Calon Jamaah Haji",
     painPoints: [
-      "Antrian Haji Reguler bisa mencapai 20-30 tahun.",
-      "Haji Plus (ONH Plus) pun kini harus menunggu 5-7 tahun.",
-      "Usia semakin bertambah, fisik semakin menurun jika harus menunggu terlalu lama.",
-      "Kekhawatiran akan legalitas visa haji yang marak bermasalah."
+      "Masa tunggu antrian Haji Reguler di Indonesia saat ini sudah sangat panjang, bahkan bisa mencapai 20 hingga 30 tahun lamanya.",
+      "Bahkan untuk program Haji Plus (ONH Plus) sekalipun, kini para calon jamaah masih harus bersabar menunggu antrian sekitar 5 hingga 7 tahun.",
+      "Kondisi usia yang semakin bertambah tua membuat fisik semakin menurun, sehingga dikhawatirkan tidak lagi prima jika harus menunggu terlalu lama.",
+      "Adanya kekhawatiran yang mendalam mengenai legalitas dokumen perjalanan haji yang belakangan ini marak bermasalah dan merugikan jamaah."
     ],
     solutionTitle: "Haji Furoda Tanpa Antri Adalah Solusinya",
     solutionPoints: [
-      "Berangkat tahun 2026 tanpa masa tunggu.",
-      "Legalitas aman dengan Visa Mujamalah.",
-      "Fasilitas premium untuk kenyamanan maksimal bagi lansia maupun keluarga.",
-      "Program perjalanan yang padat dan fokus pada kekhusyukan ibadah."
+      "Kepastian untuk bisa berangkat menunaikan ibadah haji pada tahun 2026 tanpa perlu melewati masa tunggu antrian yang memakan waktu bertahun-tahun.",
+      "Jaminan keamanan dan ketenangan hati dengan legalitas yang aman menggunakan Dokumen Perjalanan Mujamalah yang resmi dan terdaftar.",
+      "Menikmati fasilitas layanan premium yang dirancang khusus untuk memberikan kenyamanan maksimal, sangat cocok bagi jamaah lansia maupun keluarga.",
+      "Mengikuti program perjalanan ibadah yang disusun secara padat dan terstruktur agar Anda dapat fokus sepenuhnya pada kekhusyukan ibadah di Tanah Suci."
     ]
   },
   gallery: {
@@ -78,26 +78,26 @@ export const hajiFurodaData: LandingPageData = {
         quote: "Alhamdulillah, awalnya ragu karena banyak berita miring soal haji furoda. Tapi bersama Jana Madinah Wisata, semua transparan. Visa keluar tepat waktu, fasilitas hotelnya benar-benar dekat. Ibadah jadi lancar.",
         name: "Bpk. H. Ahmad Fauzi",
         location: "Jakarta Selatan",
-        avatar: "https://ui-avatars.com/api/?name=Ahmad+Fauzi&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10462/testimonial-profile-1.webp"
       },
       {
         quote: "Pelayanan luar biasa sejak pendaftaran sampai kepulangan. Ustadz pembimbingnya sangat sabar dan ilmunya mendalam. Sangat direkomendasikan untuk yang ingin haji tanpa antri.",
         name: "Ibu Hj. Siti Aminah",
         location: "Surabaya",
-        avatar: "https://ui-avatars.com/api/?name=Siti+Aminah&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10464/testimonial-profile-2.webp"
       },
       {
         quote: "Saya mendaftarkan orang tua yang sudah sepuh. Fasilitas hotel bintang 5 nya sangat membantu, tidak terlalu lelah berjalan. Terima kasih Jana Madinah Wisata telah mewujudkan impian orang tua kami.",
         name: "H. Rahmat Hidayat",
         location: "Bandung",
-        avatar: "https://ui-avatars.com/api/?name=Rahmat+Hidayat&background=0D8ABC&color=fff"
+        avatar: "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10463/testimonial-profile-3.webp"
       }
     ]
   },
   faq: [
     {
       question: "Apa itu Haji Furoda dan apakah resmi di Indonesia?",
-      answer: "Haji Furoda adalah program haji mandiri menggunakan Visa Mujamalah (undangan langsung Kerajaan Arab Saudi) tanpa menggunakan kuota pemerintah RI. Program ini 100% RESMI dan LEGAL, diatur dalam UU No. 8 Tahun 2019 tentang Penyelenggaraan Ibadah Haji dan Umrah."
+      answer: "Haji Furoda adalah program haji mandiri menggunakan Dokumen Perjalanan Mujamalah (undangan langsung Kerajaan Arab Saudi) tanpa menggunakan kuota pemerintah RI. Program ini 100% RESMI dan LEGAL, diatur dalam UU No. 8 Tahun 2019 tentang Penyelenggaraan Ibadah Haji dan Umrah."
     },
     {
       question: "Apakah Jana Madinah Wisata memiliki izin resmi PIHK?",
@@ -109,7 +109,7 @@ export const hajiFurodaData: LandingPageData = {
     },
     {
       question: "Bagaimana jika Visa Furoda tidak terbit (Gagal Berangkat)?",
-      answer: "Kami mengutamakan transparansi akad. Mengingat visa adalah hak prerogatif Kerajaan Saudi, jika Qadarullah visa tidak terbit, kami memberikan JAMINAN 100% UANG KEMBALI (Full Refund) kepada calon jamaah tanpa potongan atau sesuai yang tertuang dalam akad perjanjian."
+      answer: "Kami mengutamakan transparansi akad. Mengingat dokumen perjalanan adalah hak prerogatif Kerajaan Saudi, jika Qadarullah dokumen perjalanan tidak terbit, kami memberikan JAMINAN 100% UANG KEMBALI (Full Refund) kepada calon jamaah tanpa potongan atau sesuai yang tertuang dalam akad perjanjian."
     },
     {
       question: "Fasilitas apa saja yang didapatkan jamaah Haji Furoda?",
@@ -121,14 +121,14 @@ export const hajiFurodaData: LandingPageData = {
     },
     {
       question: "Kapan waktu terbaik mendaftar Haji Furoda 2026?",
-      answer: "Karena kuota Visa Mujamalah sangat terbatas dan diperebutkan jamaah seluruh dunia, kami sangat menyarankan pendaftaran dilakukan SEKARANG atau paling lambat sebelum Ramadhan 2026 agar proses pengurusan visa haji lebih diprioritaskan."
+      answer: "Karena kuota Dokumen Perjalanan Mujamalah sangat terbatas dan diperebutkan jamaah seluruh dunia, kami sangat menyarankan pendaftaran dilakukan SEKARANG atau paling lambat sebelum Ramadhan 2026 agar proses pengurusan dokumen perjalanan haji lebih diprioritaskan."
     }
   ],
   cta: {
     title: "Siap Menjadi Tamu Allah Tahun 2026?",
-    description: "Kuota Visa Furoda sangat terbatas. Jangan biarkan keraguan menunda niat suci Anda. Konsultasikan rencana haji Anda bersama kami sekarang.",
+    description: "Kuota Dokumen Perjalanan Furoda sangat terbatas. Jangan biarkan keraguan menunda niat suci Anda. Konsultasikan rencana haji Anda bersama kami sekarang.",
     boxTitle: "Konsultasi Gratis & Cek Ketersediaan Seat",
-    boxDescription: "Tim kami siap menjelaskan detail paket, persyaratan visa, dan skema pembayaran. Klik tombol di bawah untuk terhubung langsung via WhatsApp.",
+    boxDescription: "Tim kami siap menjelaskan detail paket, persyaratan dokumen perjalanan, dan skema pembayaran. Klik tombol di bawah untuk terhubung langsung via WhatsApp.",
     buttonText: "Chat WhatsApp Sekarang",
     whatsappMessage: "Assalamualaikum, saya berminat dengan paket Haji Furoda 2026. Mohon info detail dan harganya."
   },
@@ -138,7 +138,7 @@ export const hajiFurodaData: LandingPageData = {
       duration: "23 Hari",
       price: "USD $18.5K",
       features: [
-        "Visa Haji Furoda / Mujamalah Resmi",
+        "Dokumen Perjalanan Haji Furoda / Mujamalah Resmi",
         "Tiket Pesawat Ekonomi PP",
         "Hotel Bintang 3 Sesuai Mashaer",
         "Tenda Maktab Furoda Sesuai Mashaer",
@@ -156,7 +156,7 @@ export const hajiFurodaData: LandingPageData = {
       duration: "24 Hari",
       price: "USD $27K",
       features: [
-        "Visa Haji Furoda / Mujamalah Resmi",
+        "Dokumen Perjalanan Haji Furoda / Mujamalah Resmi",
         "Tiket Pesawat PP (Direct Jeddah)",
         "Hotel Bintang 5 Makkah & Madinah",
         "Tenda Ber-AC Maktab Furoda",
@@ -179,7 +179,7 @@ export const hajiFurodaData: LandingPageData = {
       duration: "24 Hari",
       price: "USD $17.5K",
       features: [
-        "Visa Haji Resmi",
+        "Dokumen Perjalanan Haji Resmi",
         "Tiket Pesawat PP Ekonomi",
         "Hotel Bintang 5 Makkah & Madinah",
         "Tenda Maktab VIP Arafah & Mina",

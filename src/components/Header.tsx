@@ -13,6 +13,7 @@ const Header: React.FC = () => {
     { href: '#paket', text: 'Paket' },
     { href: '#testimoni', text: 'Testimoni' },
     { href: '#faq', text: 'FAQ' },
+    { href: '/konsultasi/', text: 'Konsultasi' },
   ];
 
   return (
@@ -20,7 +21,7 @@ const Header: React.FC = () => {
       <header className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
           <div>
-            <a href="#">
+            <a href="/">
               <img 
                 src="https://storage.googleapis.com/muslimpergi/uploads/site/logo2/2/medium_logo-kotanabi-umroh-online-terpercaya.webp" 
                 alt="KotaNabi Logo" 
