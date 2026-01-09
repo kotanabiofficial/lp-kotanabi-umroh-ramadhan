@@ -13,15 +13,31 @@ import RegistrationForm from '../components/RegistrationForm';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { hajiFurodaData } from '../data/pages/haji-furoda';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
+const title = "Haji Furoda 2026 Tanpa Antri: Visa Resmi & Pasti Berangkat";
+const description = "Daftar Haji Furoda 2026 Tanpa Antri bersama KotaNabi. Visa Mujamalah Resmi, Fasilitas VVIP, Pembimbing Sunnah. Pastikan keberangkatan Anda hari ini!";
 const targetDate = new Date(hajiFurodaData.hero.targetDate);
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "KotaNabi - Haji Furoda 2026 Tanpa Antri",
+  "description": description,
+  "url": "https://lp.kotanabi.com/haji-furoda-tanpa-antri",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": siteConfig.phone.display,
+    "contactType": "customer service"
+  },
+  "priceRange": "$$$$",
+  "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
+};
 ---
 
-<Layout 
-  title="Haji Furoda 2026 Tanpa Antri: Visa Resmi & Pasti Berangkat" 
-  description="Daftar Haji Furoda 2026 Tanpa Antri bersama KotaNabi. Visa Mujamalah Resmi, Fasilitas VVIP, Pembimbing Sunnah. Pastikan keberangkatan Anda hari ini!"
->
+<Layout title={title} description={description}>
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+    
     <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
       <Header client:load />
       <main>
@@ -32,7 +48,7 @@ const targetDate = new Date(hajiFurodaData.hero.targetDate);
           bgImage={hajiFurodaData.hero.bgImage}
         />
 
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
 
         <Packages 
           title="Pilihan Paket Haji Furoda 2026"

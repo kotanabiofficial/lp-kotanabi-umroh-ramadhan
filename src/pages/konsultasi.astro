@@ -8,9 +8,28 @@ import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import ValueProposition from '../components/ValueProposition';
 import ContactInfo from '../components/ContactInfo.astro';
 import LocationMap from '../components/LocationMap.astro';
+import { siteConfig } from '../data/config';
 
 const whatsappMessage = "Assalamualaikum, saya ingin berkonsultasi mengenai paket umroh/haji.";
 const targetDate = new Date('2026-01-01'); // Placeholder
+
+const title = "Konsultasi Gratis Haji & Umroh 2026 | KotaNabi Travel";
+const description = "Konsultasi Haji & Umroh 2026 Gratis. Rencanakan ibadah amanah, transparan & sesuai sunnah bersama KotaNabi. Hubungi kami untuk info paket!";
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "KotaNabi - Konsultasi Haji & Umroh",
+  "description": description,
+  "url": "https://lp.kotanabi.com/konsultasi",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": siteConfig.phone.display, 
+    "contactType": "customer service"
+  },
+  "priceRange": "$$$",
+  "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
+};
 
 // Data for ValueProposition
 const consultationValueProps = {
@@ -36,10 +55,8 @@ const consultationValueProps = {
 };
 ---
 
-<Layout 
-  title="Konsultasi Gratis Haji & Umroh 2026 | KotaNabi Travel" 
-  description="Konsultasi Haji & Umroh 2026 Gratis. Rencanakan ibadah amanah, transparan & sesuai sunnah bersama KotaNabi. Hubungi kami untuk info paket!"
->
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
   <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
     <Header client:load />
     

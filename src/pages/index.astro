@@ -6,6 +6,7 @@ import TrustBadges from '../components/TrustBadges';
 import ProblemAgitation from '../components/ProblemAgitation';
 import ValueProposition from '../components/ValueProposition';
 import Packages from '../components/Packages';
+import RegistrationForm from '../components/RegistrationForm';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 import Faq from '../components/Faq';
@@ -13,7 +14,7 @@ import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import { ramadhanData } from '../data/pages/ramadhan';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
 const targetDate = new Date(ramadhanData.hero.targetDate);
 ---
@@ -27,8 +28,20 @@ const targetDate = new Date(ramadhanData.hero.targetDate);
           subtitle={ramadhanData.hero.subtitle}
           targetDate={targetDate}
         />
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
         <Packages data={ramadhanData.packages} />
+
+        <div id="registration-form" class="py-10 bg-white">
+            <RegistrationForm 
+                client:load 
+                title="Amankan Seat Umroh Ramadhan 2026"
+                description="Kuota Umroh Ramadhan, terutama paket Itikaf & Full Ramadhan, sangat cepat terisi (Batch 1 sudah penuh!). Isi form di bawah untuk konsultasi dan booking seat Batch 2."
+                packages={ramadhanData.packages}
+                formSource="Landing Page Ramadhan Index"
+                programName="Umroh Ramadhan 2026"
+            />
+        </div>
+
         <ValueProposition 
             title={ramadhanData.valueProposition.title}
             subtitle={ramadhanData.valueProposition.subtitle}

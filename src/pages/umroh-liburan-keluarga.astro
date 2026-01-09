@@ -14,10 +14,10 @@ import Footer from '../components/Footer';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import CallToAction from '../components/CallToAction';
 import { liburanKeluargaData } from '../data/pages/liburan-keluarga';
-import { commonData } from '../data/common';
+import { siteConfig } from '../data/config';
 
-const title = "Paket Umroh Liburan Keluarga 2026: Hemat & Berkah | KotaNabi";
-const description = "Liburan sekolah penuh makna dengan Umroh Keluarga 2026. Paket hemat mulai 25 Juta, fasilitas ramah anak, bimbingan sunnah. Wujudkan impian keluarga!";
+const title = "Paket Umroh Liburan Keluarga 2026 Hemat & Berkah | KotaNabi";
+const description = "Libur sekolah penuh makna dengan Umroh Keluarga 2026. Paket hemat mulai 25 Jutaan, fasilitas ramah anak, bimbingan sunnah. Wujudkan impian keluarga!";
 const targetDate = new Date(liburanKeluargaData.hero.targetDate);
 
 const schemaData = {
@@ -26,6 +26,11 @@ const schemaData = {
   "name": "KotaNabi - Paket Umroh Liburan Keluarga 2026",
   "description": description,
   "url": "https://lp.kotanabi.com/umroh-liburan-keluarga",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": siteConfig.phone.display,
+    "contactType": "customer service"
+  },
   "priceRange": "$$$",
   "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
 };
@@ -43,7 +48,7 @@ const schemaData = {
           targetDate={targetDate}
         />
 
-        <TrustBadges logos={commonData.trustBadges} />
+        <TrustBadges logos={siteConfig.trustBadges} />
 
         <ProblemAgitation
             title={liburanKeluargaData.problemAgitation.title}

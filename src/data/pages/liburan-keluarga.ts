@@ -2,7 +2,7 @@ import type { LandingPageData } from '../types';
 
 export const liburanKeluargaData: LandingPageData = {
   hero: {
-    title: "Liburan Keluarga Penuh Makna: Umroh 2026 Bersama KotaNabi",
+    title: "Umroh Liburan Keluarga 2026",
     subtitle: "Jadikan liburan sekolah kali ini sebagai momen terbaik untuk mendekatkan diri kepada Allah melalui Paket Umroh Liburan Keluarga 2026, dengan penawaran harga hemat mulai Rp25 Jutaan dan fasilitas yang ramah anak.",
     targetDate: "2026-06-22T00:00:00"
   },
@@ -15,11 +15,11 @@ export const liburanKeluargaData: LandingPageData = {
       { icon: '💰', title: 'Harga Terjangkau', description: 'Nikmati penawaran paket hemat mulai dari Rp25 Jutaan, sebuah solusi cerdas untuk liburan keluarga yang tidak hanya menyenangkan tetapi juga bernilai pahala tak terhingga di sisi Allah.' },
       { icon: '🗓️', title: 'Waktu Ideal', description: 'Jadwal keberangkatan yang dirancang khusus bertepatan dengan liburan sekolah Juni - Juli 2026, sehingga Anda dapat beribadah dengan tenang tanpa perlu khawatir mengganggu kegiatan sekolah anak.' },
       { icon: '🏨', title: 'Fasilitas Nyaman', description: 'Kami menyediakan akomodasi hotel dan transportasi bus yang telah dipilih secara khusus untuk menjamin kenyamanan maksimal bagi seluruh anggota keluarga, termasuk anak-anak dan lansia.' },
-      { icon: '🤝', title: 'Pembimbing Sabar', description: 'Perjalanan Anda akan didampingi oleh Muthawwif yang tidak hanya berpengalaman, tetapi juga memiliki kesabaran tinggi dalam menangani kebutuhan khusus jamaah yang membawa keluarga dan anak-anak.' }
+      { icon: '🤝', title: 'Pembimbing Profesional', description: 'Perjalanan Anda akan didampingi oleh Muthawwif yang tidak hanya berpengalaman, tetapi juga memiliki kesabaran tinggi dalam menangani kebutuhan khusus jamaah yang membawa keluarga dan anak-anak.' }
     ]
   },
   problemAgitation: {
-    title: "Bingung Mau Liburan Kemana Tahun Depan?",
+    title: "Bingung Mau Liburan Kemana Selama Tahun 2026?",
     description: "Seringkali liburan sekolah berlalu begitu saja tanpa meninggalkan kesan mendalam, atau habis untuk hal yang kurang bermanfaat. Tahun 2026, buatlah keputusan berbeda dengan mengambil Paket Umroh Liburan Keluarga 2026 yang penuh berkah.",
     painPointsTitle: "Dilema Liburan Keluarga",
     painPoints: [
@@ -43,9 +43,9 @@ export const liburanKeluargaData: LandingPageData = {
         'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10144/aqutour-jamaah-1.webp',
         'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10145/aqutour-jamaah-2.webp',
         'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10085/kn-jamaah-mutiarasunnah.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10086/kn-jamaah-mutiarasunnah-2.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10160/kn-jamaah-nakhla-2.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10159/kn-jamaah-nakhla.webp',
+        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10502/dokumentasi-umroh-mutiara-sunnah_umroh-easy-2025.webp',
+        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10486/namira_dokumentasi-umroh-20-desember-2025.webp',
+        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10487/namira_dokumentasi-umroh-21-desember-2025.webp',
     ]
   },
   testimonials: {
@@ -67,14 +67,41 @@ export const liburanKeluargaData: LandingPageData = {
     { question: "Apakah vaksin meningitis masih wajib?", answer: "Sesuai regulasi terbaru, vaksin meningitis masih dianjurkan untuk kesehatan jamaah. Kami akan memandu prosesnya agar mudah bagi keluarga Anda." }
   ],
   cta: {
-    title: "Wujudkan Impian Umroh Sekeluarga!",
-    description: "Seat liburan sekolah sangat cepat terisi. Amankan kuota keluarga Anda sekarang sebelum kehabisan.",
+    title: "Wujudkan Impian Umroh Liburan Sekeluarga!",
+    description: "Seat liburan sekolah sangat cepat terisi. Amankan kuota umroh bersama keluarga Anda sekarang sebelum kehabisan.",
     boxTitle: "Tanya Paket Keluarga",
     boxDescription: "Konsultasikan kebutuhan umroh keluarga Anda dengan travel consultant kami.",
     buttonText: "Chat Tim Kami",
     whatsappMessage: "Assalamualaikum, saya ingin info Paket Umroh Liburan Sekolah & Keluarga 2026."
   },
   packages: [
+    {
+      name: 'Umroh Syawal Plus Hainan by AQU Tour Travel',
+      duration: '11 Hari',
+      price: 'Rp26,9 Jutaan',
+      features: ['Umroh Syawal Hemat', 'Plus Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hotel Dekat Masjid', 'Travel AQU Tour'],
+      isPopular: false,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10504/umroh-syawal-plus-hainain-aqutour_22-maret-2026.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawwal Plus Hainan by AQU Tour Travel*.'
+    },
+    {
+      name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
+      duration: '9 Hari',
+      price: 'Rp26,9 Jutaan',
+      features: ['Akhir Maret 2026', 'Hotel Bintang 3 Setaraf', 'Penerbangan Berkelas', 'Makan Full Board', 'Travel Jana Madinah Wisata'],
+      isPopular: false,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10500/umroh-syawal_maret-2026_jmw.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal Reguler 2026 by Jana Madinah Wisata*.'
+    },
+    {
+      name: 'Umroh Easy 31 Agustus 2026 by Mutiara Sunnah',
+      duration: '9 Hari',
+      price: 'Rp25.900.000',
+      features: ['Low Season Hemat', 'Suasana Lebih Tenang', 'Cocok untuk Pasutri', 'Bonus Wisata Thaif', 'Travel Mutiara Sunnah'],
+      isPopular: false,
+      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp',
+      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Agustus 2026*.'
+    },
     {
       name: 'Umroh Easy 22, 25 & 28 Juni 2026 by Mutiara Sunnah',
       duration: '9 Hari',
@@ -92,15 +119,6 @@ export const liburanKeluargaData: LandingPageData = {
       isPopular: false,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Liburan Sekolah Juli 2026*.'
-    },
-    {
-      name: 'Umroh Easy 31 Agustus 2026 by Mutiara Sunnah',
-      duration: '9 Hari',
-      price: 'Rp25.900.000',
-      features: ['Low Season Hemat', 'Suasana Lebih Tenang', 'Cocok untuk Pasutri', 'Bonus Wisata Thaif', 'Travel Mutiara Sunnah'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Agustus 2026*.'
     }
   ]
 };

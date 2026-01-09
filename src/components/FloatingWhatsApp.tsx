@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { siteConfig } from '../data/config';
 
 interface FloatingWhatsAppProps {
   whatsappMessage?: string;
@@ -10,7 +11,7 @@ const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({
   whatsappMessage = "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya.",
   buttonText = "Chat via WhatsApp"
 }) => {
-  const phoneNumber = "628561500883";
+  const phoneNumber = siteConfig.phone.whatsapp;
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
