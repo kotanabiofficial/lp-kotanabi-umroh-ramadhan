@@ -7,7 +7,7 @@ export const ramadhanData: LandingPageData = {
     targetDate: "2026-02-18T00:00:00"
   },
   valueProposition: {
-    title: "Mengapa Memilih Travek Rekomendasi KotaNabi Untuk Perjalanan Suci Anda?",
+    title: "Mengapa Memilih Travel Rekomendasi Kota Nabi?",
     subtitle: "Kami memahami bahwa ibadah di bulan suci membutuhkan ketenangan jiwa, itulah sebabnya kami pilihkan program perjalanan umroh dari travel rekomendasi agar Anda dapat beribadah dengan khusyuk, nyaman, dan penuh makna.",
     features: [
       { icon: '✈️', title: 'Penerbangan Langsung & Nyaman', description: 'Nikmati perjalanan udara yang tenang dan efisien tanpa transit menggunakan maskapai penerbangan berkelas dunia, sehingga Anda dapat tiba di Tanah Suci dengan kondisi fisik yang bugar.' },
@@ -68,7 +68,7 @@ export const ramadhanData: LandingPageData = {
   ],
   cta: {
     title: "Jangan Tunda Lagi Panggilan ke Baitullah",
-    description: "Peringatan: Paket Umroh Itikaf Ramadhan Batch 2 sedang diperebutkan. Segera amankan kuota Anda sebelum pendaftaran ditutup total.",
+    description: "Peringatan! Paket Umroh Itikaf & Full Ramadhan sedang diperebutkan. Segera amankan seat Anda sekarang, sebelum kehabisan.",
     boxTitle: "Dapatkan Informasi Lengkap & Promo Spesial!",
     boxDescription: "Klik tombol di bawah untuk konsultasi gratis.",
     buttonText: "Chat di WhatsApp",
