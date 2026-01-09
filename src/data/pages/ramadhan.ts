@@ -79,7 +79,7 @@ export const ramadhanData: LandingPageData = {
     subtitle: "Yuk bergabung di program Umroh Ramadhan 2026 - Raih Pahala dan Keberkahan di Tanah Suci. Pilih paket yang sesuai dengan kebutuhan ibadah Anda di bulan suci!",
     items: [
     {
-      name: 'Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour',
+      name: 'Umroh Awal Ramadhan',
       duration: '9 Hari',
       price: 'Mulai dari Rp28 Jt-an',
       features: ['Hotel Bintang 4 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel AQU Tour'],
@@ -90,7 +90,7 @@ export const ramadhanData: LandingPageData = {
     {
       name: 'Umroh Full Ramadhan',
       duration: '35 Hari',
-      price: 'Mulai dari Rp33 Jt',
+      price: 'Mulai dari Rp33 Jt-an',
       features: ['Program Full Ramadhan MURAH', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
       isPopular: true,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
