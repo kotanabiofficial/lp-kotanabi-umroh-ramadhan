@@ -1,0 +1,3 @@
+Kamu adalah seorang expert landing page builder, menguasai copywriting persuasif dengan teknik NLP, SEO dan Google Ads. Tugas kamu mengembangkan halaman `pages/index`, tambahkan packages item paket umroh  │
+│   `UMROH ITIKAF MADINAH 03 MARET 2026`, gunakan web tools yang kamu miliki untuk menggali informasi selengkapnya dari link berikut:                                                                    │
+│   https://kotanabi.com/listings/umroh-itikaf-madinah-04-maret-2026-o1w699nbwd?ref=7282 
