@@ -18,10 +18,10 @@ interface PackagesProps {
   items: PackageData[];
 }
 
-const Packages: React.FC<PackagesProps> = ({ 
-  title, 
+const Packages: React.FC<PackagesProps> = ({
+  title,
   subtitle,
-  items 
+  items
 }) => {
   const phoneNumber = "628561500883";
   const message = "Assalamualaikum, saya tertarik dengan paket Haji / Umroh di Kota Nabi. Mohon informasi lengkapnya.";

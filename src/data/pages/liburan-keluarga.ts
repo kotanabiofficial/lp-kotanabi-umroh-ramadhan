@@ -74,60 +74,64 @@ export const liburanKeluargaData: LandingPageData = {
     buttonText: "Chat Tim Kami",
     whatsappMessage: "Assalamualaikum, saya ingin info Paket Umroh Liburan Sekolah & Keluarga 2026."
   },
-  packages: [
-    {
-      name: 'Umroh Syawal 2026 Plus Hainan 11 Hari',
-      duration: '11 Hari',
-      price: 'Mulai dari Rp26,9 Jt',
-      features: ['Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hainan Airlines', 'Makan Fullboard', 'Travel AQU Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7935/medium_UMROH_SYAWWAL_2026__3___2_.png',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal 2026 Plus Hainan 11 Hari*.'
-    },
-    {
-      name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp26,9 Jt',
-      features: ['Akhir Maret 2026', 'Hotel Bintang 3 Setaraf', 'Penerbangan Berkelas', 'Makan Full Board', 'Travel Jana Madinah Wisata'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10500/umroh-syawal_maret-2026_jmw.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal Reguler 2026 by Jana Madinah Wisata*.'
-    },
-    {
-      name: 'Umroh Akbar Libur Lebaran 2026 by Nakhla Tour',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp29,9 Jt',
-      features: ['Umroh Akbar Bersama Owner', 'Hotel Dekat Masjid', 'Penerbangan Emirates', 'Makan Full Board', 'Travel Nakhla Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7345/medium__68__Ebanner_Umrah_Akbar_22_Maret_2026__3_.png',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
-    },
-    {
-      name: 'Umroh Easy 22, 25 & 28 Juni 2026 by Mutiara Sunnah',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp25,9 Jt',
-      features: ['Awal Liburan Sekolah', 'Hotel Bintang 3/4', 'Pesawat Direct/Transit', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10492/umroh-liburan-2026_25-juni_ms.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juni 2026 by Mutiara Sunnah*.'
-    },
-    {
-      name: 'Umroh Easy 1 & 2 Juli 2026 by Mutiara Sunnah',
-      duration: '10 Hari',
-      price: 'Mulai dari Rp27 Jt',
-      features: ['Akhir Liburan Sekolah', 'Hotel Bintang 3/4', 'Oman Airlines', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7955/medium_WhatsApp_Image_2026-01-05_at_10.28.22.jpeg',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juli 2026 by Mutiara Sunnah*.'
-    },
-    {
-      name: 'Umroh Liburan 24 Juni & 4 Juli 2026 by Namira Travel',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp31,9 Jt',
-      features: ['Penutup Liburan Berkah', 'Hotel Bintang 4', 'Free Kereta Cepat', 'Full Board Menu Indonesia', 'Travel Namira'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10497/umroh-liburan-sekolah-reguler_04-juli-2026_namira.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Liburan Sekolah Juli 2026 by Namira Travel*.'
-    },
-  ]
+  packages: {
+    title: "Paket Umroh Liburan Keluarga 2026",
+    subtitle: "Pilihan terbaik untuk mengisi liburan sekolah dengan keberkahan. Seat terbatas!",
+    items: [
+      {
+        name: 'Umroh Syawal 2026 Plus Hainan 11 Hari',
+        duration: '11 Hari',
+        price: 'Mulai dari Rp26,9 Jt',
+        features: ['Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hainan Airlines', 'Makan Fullboard', 'Travel AQU Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7935/medium_UMROH_SYAWWAL_2026__3___2_.png',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal 2026 Plus Hainan 11 Hari*.'
+      },
+      {
+        name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp26,9 Jt',
+        features: ['Akhir Maret 2026', 'Hotel Bintang 3 Setaraf', 'Penerbangan Berkelas', 'Makan Full Board', 'Travel Jana Madinah Wisata'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10500/umroh-syawal_maret-2026_jmw.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal Reguler 2026 by Jana Madinah Wisata*.'
+      },
+      {
+        name: 'Umroh Akbar Libur Lebaran 2026 by Nakhla Tour',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp29,9 Jt',
+        features: ['Umroh Akbar Bersama Owner', 'Hotel Dekat Masjid', 'Penerbangan Emirates', 'Makan Full Board', 'Travel Nakhla Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7345/medium__68__Ebanner_Umrah_Akbar_22_Maret_2026__3_.png',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
+      },
+      {
+        name: 'Umroh Easy 22, 25 & 28 Juni 2026 by Mutiara Sunnah',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp25,9 Jt',
+        features: ['Awal Liburan Sekolah', 'Hotel Bintang 3/4', 'Pesawat Direct/Transit', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10492/umroh-liburan-2026_25-juni_ms.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juni 2026 by Mutiara Sunnah*.'
+      },
+      {
+        name: 'Umroh Easy 1 & 2 Juli 2026 by Mutiara Sunnah',
+        duration: '10 Hari',
+        price: 'Mulai dari Rp27 Jt',
+        features: ['Akhir Liburan Sekolah', 'Hotel Bintang 3/4', 'Oman Airlines', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7955/medium_WhatsApp_Image_2026-01-05_at_10.28.22.jpeg',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juli 2026 by Mutiara Sunnah*.'
+      },
+      {
+        name: 'Umroh Liburan 24 Juni & 4 Juli 2026 by Namira Travel',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp31,9 Jt',
+        features: ['Penutup Liburan Berkah', 'Hotel Bintang 4', 'Free Kereta Cepat', 'Full Board Menu Indonesia', 'Travel Namira'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10497/umroh-liburan-sekolah-reguler_04-juli-2026_namira.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Liburan Sekolah Juli 2026 by Namira Travel*.'
+      },
+    ]
+  }
 };
