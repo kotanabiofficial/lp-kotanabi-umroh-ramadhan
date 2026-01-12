@@ -1,110 +1,116 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header';
-import Hero from '../components/Hero.astro';
-import TrustBadges from '../components/TrustBadges';
-import ValueProposition from '../components/ValueProposition';
-import ProblemAgitation from '../components/ProblemAgitation';
-import Packages from '../components/Packages';
-import RegistrationForm from '../components/RegistrationForm';
-import Testimonials from '../components/Testimonials';
-import Gallery from '../components/Gallery';
-import Faq from '../components/Faq';
-import Footer from '../components/Footer';
-import FloatingWhatsApp from '../components/FloatingWhatsApp';
-import CallToAction from '../components/CallToAction';
-import { liburanKeluargaData } from '../data/pages/liburan-keluarga';
-import { siteConfig } from '../data/config';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Hero from "../components/Hero.astro";
+import TrustBadges from "../components/TrustBadges";
+import ValueProposition from "../components/ValueProposition";
+import ProblemAgitation from "../components/ProblemAgitation";
+import Packages from "../components/Packages";
+import RegistrationForm from "../components/RegistrationForm";
+import Testimonials from "../components/Testimonials";
+import Gallery from "../components/Gallery";
+import Faq from "../components/Faq";
+import Footer from "../components/Footer";
+import FloatingWhatsApp from "../components/FloatingWhatsApp";
+import CallToAction from "../components/CallToAction";
+import { liburanKeluargaData } from "../data/pages/liburan-keluarga";
+import { siteConfig } from "../data/config";
 
 const title = "Paket Umroh Liburan Keluarga 2026 Hemat & Berkah | KotaNabi";
-const description = "Libur sekolah penuh makna dengan Umroh Keluarga 2026. Paket hemat mulai 25 Jutaan, fasilitas ramah anak, bimbingan sunnah. Wujudkan impian keluarga!";
+const description =
+  "Libur sekolah penuh makna dengan Umroh Keluarga 2026. Paket hemat mulai 25 Jutaan, fasilitas ramah anak, bimbingan sunnah. Wujudkan impian keluarga!";
 const targetDate = new Date(liburanKeluargaData.hero.targetDate);
 
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
-  "name": "KotaNabi - Paket Umroh Liburan Keluarga 2026",
-  "description": description,
-  "url": "https://lp.kotanabi.com/umroh-liburan-keluarga",
-  "contactPoint": {
+  name: "KotaNabi - Paket Umroh Liburan Keluarga 2026",
+  description: description,
+  url: "https://lp.kotanabi.com/umroh-liburan-keluarga",
+  contactPoint: {
     "@type": "ContactPoint",
-    "telephone": siteConfig.phone.display,
-    "contactType": "customer service"
+    telephone: siteConfig.phone.display,
+    contactType: "customer service",
   },
-  "priceRange": "$$$",
-  "image": "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp"
+  priceRange: "$$$",
+  image:
+    "https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10022/mp-mekkah-kaabah.webp",
 };
 ---
 
 <Layout title={title} description={description}>
-    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
-    
-    <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
-      <Header client:load />
-      <main>
-        <Hero 
-          title={liburanKeluargaData.hero.title}
-          subtitle={liburanKeluargaData.hero.subtitle}
-          targetDate={targetDate}
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
+    <Header client:load />
+    <main>
+      <Hero
+        title={liburanKeluargaData.hero.title}
+        subtitle={liburanKeluargaData.hero.subtitle}
+        targetDate={targetDate}
+      />
+
+      <TrustBadges logos={siteConfig.trustBadges} />
+
+      <ProblemAgitation
+        title={liburanKeluargaData.problemAgitation.title}
+        description={liburanKeluargaData.problemAgitation.description}
+        painPointsTitle={liburanKeluargaData.problemAgitation.painPointsTitle}
+        painPoints={liburanKeluargaData.problemAgitation.painPoints}
+        solutionTitle={liburanKeluargaData.problemAgitation.solutionTitle}
+        solutionPoints={liburanKeluargaData.problemAgitation.solutionPoints}
+      />
+
+      <ValueProposition
+        title={liburanKeluargaData.valueProposition.title}
+        subtitle={liburanKeluargaData.valueProposition.subtitle}
+        features={liburanKeluargaData.valueProposition.features}
+      />
+
+      <Packages
+        title="Paket Umroh Liburan Keluarga 2026"
+        subtitle="Pilihan terbaik untuk mengisi liburan sekolah dengan keberkahan. Seat terbatas!"
+        data={liburanKeluargaData.packages}
+      />
+
+      <div id="registration-form">
+        <RegistrationForm
+          client:load
+          title="Amankan Seat Liburan Keluarga"
+          description="Kuota liburan sekolah sangat cepat terisi. Isi form untuk konsultasi dan booking jadwal pilihan Anda."
+          packages={liburanKeluargaData.packages}
+          formSource="Landing Page Liburan Keluarga"
+          programName="Umroh Liburan Keluarga 2026"
         />
+      </div>
 
-        <TrustBadges logos={siteConfig.trustBadges} />
+      <Gallery
+        title={liburanKeluargaData.gallery.title}
+        subtitle={liburanKeluargaData.gallery.subtitle}
+        images={liburanKeluargaData.gallery.images}
+      />
 
-        <ProblemAgitation
-            title={liburanKeluargaData.problemAgitation.title}
-            description={liburanKeluargaData.problemAgitation.description}
-            painPointsTitle={liburanKeluargaData.problemAgitation.painPointsTitle}
-            painPoints={liburanKeluargaData.problemAgitation.painPoints}
-            solutionTitle={liburanKeluargaData.problemAgitation.solutionTitle}
-            solutionPoints={liburanKeluargaData.problemAgitation.solutionPoints}
-        />
+      <Testimonials
+        title={liburanKeluargaData.testimonials.title}
+        subtitle={liburanKeluargaData.testimonials.subtitle}
+        items={liburanKeluargaData.testimonials.items}
+      />
 
-        <ValueProposition 
-            title={liburanKeluargaData.valueProposition.title}
-            subtitle={liburanKeluargaData.valueProposition.subtitle}
-            features={liburanKeluargaData.valueProposition.features}
-        />
-
-        <Packages
-          title="Paket Umroh Liburan Keluarga 2026"
-          subtitle="Pilihan terbaik untuk mengisi liburan sekolah dengan keberkahan. Seat terbatas!"
-          data={liburanKeluargaData.packages}
-        />
-
-        <div id="registration-form">
-            <RegistrationForm 
-                client:load 
-                title="Amankan Seat Liburan Keluarga"
-                description="Kuota liburan sekolah sangat cepat terisi. Isi form untuk konsultasi dan booking jadwal pilihan Anda."
-                packages={liburanKeluargaData.packages}
-                formSource="Landing Page Liburan Keluarga"
-                programName="Umroh Liburan Keluarga 2026"
-            />
-        </div>
-
-        <Gallery 
-            title={liburanKeluargaData.gallery.title}
-            subtitle={liburanKeluargaData.gallery.subtitle}
-            images={liburanKeluargaData.gallery.images}
-        />
-
-        <Testimonials
-            title={liburanKeluargaData.testimonials.title} 
-            subtitle={liburanKeluargaData.testimonials.subtitle}
-            items={liburanKeluargaData.testimonials.items}
-        />
-
-        <Faq items={liburanKeluargaData.faq} client:visible />
-        <CallToAction 
-          title={liburanKeluargaData.cta.title} 
-          description={liburanKeluargaData.cta.description} 
-          boxTitle={liburanKeluargaData.cta.boxTitle} 
-          boxDescription={liburanKeluargaData.cta.boxDescription} 
-          buttonText={liburanKeluargaData.cta.buttonText} 
-          whatsappMessage={liburanKeluargaData.cta.whatsappMessage}
-        />
-      </main>
-      <Footer />
-      <FloatingWhatsApp whatsappMessage={liburanKeluargaData.cta.whatsappMessage} buttonText={liburanKeluargaData.cta.buttonText} client:idle />
-    </div>
+      <Faq items={liburanKeluargaData.faq} client:visible />
+      <CallToAction
+        title={liburanKeluargaData.cta.title}
+        description={liburanKeluargaData.cta.description}
+        boxTitle={liburanKeluargaData.cta.boxTitle}
+        boxDescription={liburanKeluargaData.cta.boxDescription}
+        buttonText={liburanKeluargaData.cta.buttonText}
+        whatsappMessage={liburanKeluargaData.cta.whatsappMessage}
+      />
+    </main>
+    <Footer />
+    <FloatingWhatsApp
+      whatsappMessage={liburanKeluargaData.cta.whatsappMessage}
+      buttonText={liburanKeluargaData.cta.buttonText}
+      client:idle
+    />
+  </div>
 </Layout>
