@@ -132,7 +132,10 @@ export const hajiFurodaData: LandingPageData = {
     buttonText: "Chat WhatsApp Sekarang",
     whatsappMessage: "Assalamualaikum, saya berminat dengan paket Haji Furoda 2026. Mohon info detail dan harganya."
   },
-  packages: [
+  packages: {
+    title: "Pilihan Paket Haji Furoda 2026",
+    subtitle: "Pilih kenyamanan ibadah Anda dengan fasilitas terbaik yang kami sediakan.",
+    items: [
     {
       name: "Haji Furoda Mandiri",
       duration: "23 Hari",
@@ -194,4 +197,5 @@ export const hajiFurodaData: LandingPageData = {
       waMessage: "Assalamu'alaikum, saya tertarik paket *Haji Plus VIP by Jana Madinah Wisata*. Mohon info detail dan pendaftarannya."
     }
   ]
+  }
 };

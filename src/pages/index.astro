@@ -19,7 +19,7 @@ import { siteConfig } from '../data/config';
 const targetDate = new Date(ramadhanData.hero.targetDate);
 ---
 
-<Layout title="Paket Umroh Ramadhan 2026: Hemat & Berkah | KotaNabi" description="Wujudkan impian Umroh Ramadhan 2026 bersama travel resmi & amanah. Paket hemat mulai Rp28 Juta. Fasilitas nyaman, bimbingan sunnah. Daftar sekarang!">
+<Layout title="Paket Umroh Ramadhan 2026 Hemat & Berkah | KotaNabi" description="Wujudkan impian Umroh Ramadhan 2026 bersama travel resmi & amanah. Paket hemat mulai Rp28 Juta. Fasilitas nyaman, bimbingan sunnah. Daftar sekarang!">
     <div class="bg-accent font-sans text-dark antialiased overflow-x-hidden">
       <Header client:load />
       <main>
@@ -29,14 +29,14 @@ const targetDate = new Date(ramadhanData.hero.targetDate);
           targetDate={targetDate}
         />
         <TrustBadges logos={siteConfig.trustBadges} />
-        <Packages data={ramadhanData.packages} />
+        <Packages {...ramadhanData.packages} />
 
         <div id="registration-form" class="bg-gray-50">
             <RegistrationForm 
                 client:load 
                 title="Amankan Seat Umroh Ramadhan 2026"
-                description="Kuota Umroh Ramadhan, terutama paket Itikaf & Full Ramadhan, sangat cepat terisi (Batch 1 sudah penuh!). Isi form di bawah untuk konsultasi dan booking seat Batch 2."
-                packages={ramadhanData.packages}
+                description="Kuota Umroh Ramadhan, terutama paket Itikaf, sangat cepat terisi (Batch 1 sudah penuh!). Isi form di bawah untuk konsultasi dan booking seat Batch 2."
+                packages={ramadhanData.packages.items}
                 formSource="Landing Page Ramadhan Index"
                 programName="Umroh Ramadhan 2026"
             />

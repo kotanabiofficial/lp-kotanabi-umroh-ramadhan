@@ -13,15 +13,15 @@ interface PackageData {
 }
 
 interface PackagesProps {
-  title?: string;
-  subtitle?: string;
-  data: PackageData[];
+  title: string;
+  subtitle: string;
+  items: PackageData[];
 }
 
 const Packages: React.FC<PackagesProps> = ({ 
-  title = "Pilih Paket Perjalanan Spiritual Anda", 
-  subtitle = "Setiap paket dirancang untuk memberikan pengalaman terbaik. Seat sangat terbatas, amankan pilihan Anda sekarang.",
-  data 
+  title, 
+  subtitle,
+  items 
 }) => {
   const phoneNumber = "628561500883";
   const message = "Assalamualaikum, saya tertarik dengan paket Haji / Umroh di Kota Nabi. Mohon informasi lengkapnya.";
@@ -37,7 +37,7 @@ const Packages: React.FC<PackagesProps> = ({
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-          {data.map((pkg, index) => (
+          {items.map((pkg, index) => (
             <PackageCard key={index} {...pkg} />
           ))}
         </div>

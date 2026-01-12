@@ -70,7 +70,10 @@ export const akhirTahunData: LandingPageData = {
     buttonText: "Tanya Paket Akhir Tahun",
     whatsappMessage: "Assalamualaikum, saya tertarik dengan paket Umroh Akhir Tahun. Mohon info detailnya."
   },
-  packages: [
+  packages: {
+    title: "Pilihan Paket Umroh Akhir Tahun Terbaik",
+    subtitle: "Temukan paket Umroh Akhir Tahun yang sesuai dengan kebutuhan dan budget Anda. Ketersediaan terbatas!",
+    items: [
     {
       name: 'Umroh Akhir Tahun Hemat',
       duration: '9 Hari',
@@ -99,4 +102,5 @@ export const akhirTahunData: LandingPageData = {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Plus Turki Akhir Tahun*. Mohon informasi lengkapnya.'
     }
   ]
+  }
 };

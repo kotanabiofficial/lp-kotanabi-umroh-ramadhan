@@ -74,7 +74,10 @@ export const ramadhanData: LandingPageData = {
     buttonText: "Chat di WhatsApp",
     whatsappMessage: "Assalamualaikum, saya tertarik dengan paket Umroh Ramadhan 2026. Mohon informasi lengkapnya."
   },
-  packages: [
+  packages: {
+    title: "Pilihan Paket Umroh Ramadhan 2026 Terbaik",
+    subtitle: "Yuk bergabung di program Umroh Ramadhan 2026 - Raih Pahala dan Keberkahan di Tanah Suci. Pilih paket yang sesuai dengan kebutuhan ibadah Anda di bulan suci!",
+    items: [
     {
       name: 'Umroh Awal Ramadhan',
       duration: '9 Hari',
@@ -87,8 +90,8 @@ export const ramadhanData: LandingPageData = {
     {
       name: 'Umroh Full Ramadhan',
       duration: '35 Hari',
-      price: 'Mulai dari Rp33 Jt',
-      features: ['Program Full Ramadhan MURAH', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
+      price: 'Mulai dari Rp33 Jt-an',
+      features: ['Program Full Ramadhan HEMAT', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
       isPopular: true,
       image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
@@ -157,4 +160,5 @@ export const ramadhanData: LandingPageData = {
       waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
     },
   ]
+  }
 };

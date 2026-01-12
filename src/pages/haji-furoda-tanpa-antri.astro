@@ -51,9 +51,7 @@ const schemaData = {
         <TrustBadges logos={siteConfig.trustBadges} />
 
         <Packages 
-          title="Pilihan Paket Haji Furoda 2026"
-          subtitle="Pilih kenyamanan ibadah Anda dengan fasilitas terbaik yang kami sediakan."
-          data={hajiFurodaData.packages} 
+          {...hajiFurodaData.packages}
         />
 
         <ValueProposition 
@@ -88,7 +86,7 @@ const schemaData = {
         <RegistrationForm 
           title={hajiFurodaData.cta.title}
           description={hajiFurodaData.cta.description}
-          packages={hajiFurodaData.packages}
+          packages={hajiFurodaData.packages.items}
           client:visible
         />
 
