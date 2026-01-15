@@ -106,27 +106,27 @@ export const liburanKeluargaData: LandingPageData = {
         waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
       },
       {
-        name: 'Umroh Easy 22, 25 & 28 Juni 2026 by Mutiara Sunnah',
+        name: 'Umroh Easy Juni & Juli 2026 by Mutiara Sunnah',
         duration: '9 Hari',
-        price: 'Mulai dari Rp25,9 Jt',
+        price: 'Mulai dari Rp26 Jt-an',
         features: ['Awal Liburan Sekolah', 'Hotel Bintang 3/4', 'Pesawat Direct/Transit', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
         isPopular: false,
         image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10492/umroh-liburan-2026_25-juni_ms.webp',
         waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juni 2026 by Mutiara Sunnah*.'
       },
       {
-        name: 'Umroh Easy 1 & 2 Juli 2026 by Mutiara Sunnah',
-        duration: '10 Hari',
-        price: 'Mulai dari Rp27 Jt',
-        features: ['Akhir Liburan Sekolah', 'Hotel Bintang 3/4', 'Oman Airlines', 'City Tour Mekkah Madinah', 'Travel Mutiara Sunnah'],
-        isPopular: false,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7955/medium_WhatsApp_Image_2026-01-05_at_10.28.22.jpeg',
-        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Easy Juli 2026 by Mutiara Sunnah*.'
+        name: 'Umroh Jelajah Plus Turki 18 Juni 2026 by Elmarwa',
+        duration: '15 Hari',
+        price: 'Mulai dari Rp34 Jt-an',
+        features: ['Plus Wisata Turki 2 Malam', 'Hotel Bintang 4', 'Maskapai Etihad/Flynas', 'Jelajah Sejarah Islam', 'Travel Elmarwa'],
+        isPopular: true,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10575/umroh-plus-turki-juni-2026_elmarwa.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Jelajah Plus Turki 18 Juni 2026 by Elmarwa*. Mohon informasi lengkapnya.'
       },
       {
         name: 'Umroh Liburan 24 Juni & 4 Juli 2026 by Namira Travel',
         duration: '9 Hari',
-        price: 'Mulai dari Rp31,9 Jt',
+        price: 'Mulai dari Rp31 Jt-an',
         features: ['Penutup Liburan Berkah', 'Hotel Bintang 4', 'Free Kereta Cepat', 'Full Board Menu Indonesia', 'Travel Namira'],
         isPopular: false,
         image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10497/umroh-liburan-sekolah-reguler_04-juli-2026_namira.webp',

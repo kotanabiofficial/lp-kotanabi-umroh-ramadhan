@@ -40,12 +40,12 @@ export const ramadhanData: LandingPageData = {
     title: "Fasilitas dan Momen Perjalanan Jamaah Umroh",
     subtitle: "Lihat lebih dekat kenyamanan yang akan Anda dapatkan dari biro travel umroh rekomendasi KotaNabi.",
     images: [
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10144/aqutour-jamaah-1.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10145/aqutour-jamaah-2.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10510/dokumentasi-umroh-janamadinahwisata_jamaah-umroh.jpeg',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10508/dokumentasi-umroh-janamadinahwisata_30-oktober.jpeg',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10160/kn-jamaah-nakhla-2.webp',
-        'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10159/kn-jamaah-nakhla.webp',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10144/aqutour-jamaah-1.webp',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10145/aqutour-jamaah-2.webp',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10510/dokumentasi-umroh-janamadinahwisata_jamaah-umroh.jpeg',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10508/dokumentasi-umroh-janamadinahwisata_30-oktober.jpeg',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10160/kn-jamaah-nakhla-2.webp',
+      'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10159/kn-jamaah-nakhla.webp',
     ]
   },
   testimonials: {
@@ -78,87 +78,87 @@ export const ramadhanData: LandingPageData = {
     title: "Pilihan Paket Umroh Ramadhan 2026 Terbaik",
     subtitle: "Yuk bergabung di program Umroh Ramadhan 2026 - Raih Pahala dan Keberkahan di Tanah Suci. Pilih paket yang sesuai dengan kebutuhan ibadah Anda di bulan suci!",
     items: [
-    {
-      name: 'Umroh Awal Ramadhan',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp28 Jt-an',
-      features: ['Hotel Bintang 4 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel AQU Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10125/aqutour-umroh-awal-ramadhan-2026.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-    },
-    {
-      name: 'Umroh Full Ramadhan',
-      duration: '35 Hari',
-      price: 'Mulai dari Rp33 Jt-an',
-      features: ['Program Full Ramadhan HEMAT', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
-      isPopular: true,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-    },
-    {
-      name: 'Umroh I\'tikaf Ramadhan',
-      duration: '16 Hari',
-      price: 'Mulai dari Rp34 Jt-an',
-      features: ['Full Itikaf 10 Hari Ramadhan', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10124/aqutour-umroh-itikaf-ramadhan-2026.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh I\'tikaf Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-    },
-    {
-      name: 'Umroh Awal Ramadhan 1447H by Jana Madinah Wisata',
-      duration: '12 Hari',
-      price: 'Mulai dari Rp32,9 Jt',
-      features: ['Akhir Sya\'ban - Awal Ramadhan', 'Hotel Bintang 3 Setaraf', 'Saudia Airline / Setaraf', 'Full Board', 'Travel Jana Madinah Wisata'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10513/umroh-akhir-syaban-awal-ramadhan-1447_jana-madinah-wisata.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 1447H by Jana Madinah Wisata*.'
-    },
-    {
-      name: 'Umroh Itikaf Ramadhan by Jana Madinah Wisata',
-      duration: '15 Hari',
-      price: 'Mulai dari Rp43,5 Jt',
-      features: ['Fokus Ibadah 10 Malam Terakhir', 'Hotel Bintang 3 Setaraf', 'Maskapai Premium', 'Program Itikaf Khusyuk', 'Travel Jana Madinah Wisata'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10512/umroh-itikaf-ramadhan-2026_jana-madinah-wisata.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan 1447H by Jana Madinah Wisata*.'
-    },
-    {
-      name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp26,9 Jt',
-      features: ['Momen Kemenangan di Tanah Suci', 'Hotel Bintang 3 Setaraf', 'Maskapai Premium', 'Full Board Meals', 'Travel Jana Madinah Wisata'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10500/umroh-syawal_maret-2026_jmw.webp',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal Reguler 1447H by Jana Madinah Wisata*.'
-    },
-    {
-      name: 'Umroh Syawal 2026 Plus Hainan 11 Hari',
-      duration: '11 Hari',
-      price: 'Mulai dari Rp26,9 Jt',
-      features: ['Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hainan Airlines', 'Makan Fullboard', 'Travel AQU Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7935/medium_UMROH_SYAWWAL_2026__3___2_.png',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal 2026 Plus Hainan 11 Hari*.'
-    },
-    {
-      name: 'Umroh Itikaf Madinah 2026 by Nakhla Tour',
-      duration: '19 Hari',
-      price: 'Mulai dari Rp57,9 Juta',
-      features: ['Garuda Indonesia (Direct)', 'Hotel Bintang 4/5', 'Kereta Cepat Haramain', 'Fokus Itikaf Madinah', 'Travel Nakhla Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/6847/medium_UMROH_RAMADHAN_1447_DAN_ITIKAF_MADINAH_2026.jpeg',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Madinah 2026 by Nakhla Tour*.'
-    },
-    {
-      name: 'Umroh Akbar Lebaran 2026 by Nakhla Tour',
-      duration: '9 Hari',
-      price: 'Mulai dari Rp29,9 Juta',
-      features: ['Umroh Akbar Bersama Owner', 'Hotel Dekat Masjid', 'Penerbangan Emirates', 'Full Board', 'Travel Nakhla Tour'],
-      isPopular: false,
-      image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7345/medium__68__Ebanner_Umrah_Akbar_22_Maret_2026__3_.png',
-      waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
-    },
-  ]
+      {
+        name: 'Umroh Awal Ramadhan',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp28 Jt-an',
+        features: ['Hotel Bintang 4 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel AQU Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10125/aqutour-umroh-awal-ramadhan-2026.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+      },
+      {
+        name: 'Umroh Full Ramadhan',
+        duration: '35 Hari',
+        price: 'Mulai dari Rp33 Jt-an',
+        features: ['Program Full Ramadhan HEMAT', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
+        isPopular: true,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+      },
+      {
+        name: 'Umroh I\'tikaf Ramadhan',
+        duration: '16 Hari',
+        price: 'Mulai dari Rp34 Jt-an',
+        features: ['Full Itikaf 10 Hari Ramadhan', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10124/aqutour-umroh-itikaf-ramadhan-2026.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh I\'tikaf Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
+      },
+      {
+        name: 'Umroh Awal Ramadhan 1447H by Jana Madinah Wisata',
+        duration: '12 Hari',
+        price: 'Mulai dari Rp32,9 Jt',
+        features: ['Akhir Sya\'ban - Awal Ramadhan', 'Hotel Bintang 3 Setaraf', 'Saudia Airline / Setaraf', 'Full Board', 'Travel Jana Madinah Wisata'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10513/umroh-akhir-syaban-awal-ramadhan-1447_jana-madinah-wisata.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 1447H by Jana Madinah Wisata*.'
+      },
+      {
+        name: 'Umroh Itikaf Ramadhan by Jana Madinah Wisata',
+        duration: '15 Hari',
+        price: 'Mulai dari Rp43,5 Jt',
+        features: ['Fokus Ibadah 10 Malam Terakhir', 'Hotel Bintang 3 Setaraf', 'Maskapai Premium', 'Program Itikaf Khusyuk', 'Travel Jana Madinah Wisata'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10512/umroh-itikaf-ramadhan-2026_jana-madinah-wisata.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Ramadhan 1447H by Jana Madinah Wisata*.'
+      },
+      {
+        name: 'Umroh Syawal Reguler 1447H by Jana Madinah Wisata',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp26,9 Jt',
+        features: ['Momen Kemenangan di Tanah Suci', 'Hotel Bintang 3 Setaraf', 'Maskapai Premium', 'Full Board Meals', 'Travel Jana Madinah Wisata'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10500/umroh-syawal_maret-2026_jmw.webp',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal Reguler 1447H by Jana Madinah Wisata*.'
+      },
+      {
+        name: 'Umroh Syawal 2026 Plus Hainan 11 Hari',
+        duration: '11 Hari',
+        price: 'Mulai dari Rp26,9 Jt',
+        features: ['Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hainan Airlines', 'Makan Fullboard', 'Travel AQU Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7935/medium_UMROH_SYAWWAL_2026__3___2_.png',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal 2026 Plus Hainan 11 Hari*.'
+      },
+      {
+        name: 'Umroh Itikaf Madinah 2026 by Nakhla Tour',
+        duration: '19 Hari',
+        price: 'Mulai dari Rp57,9 Juta',
+        features: ['Garuda Indonesia (Direct)', 'Hotel Bintang 4/5', 'Kereta Cepat Haramain', 'Fokus Itikaf Madinah', 'Travel Nakhla Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/6847/medium_UMROH_RAMADHAN_1447_DAN_ITIKAF_MADINAH_2026.jpeg',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Itikaf Madinah 2026 by Nakhla Tour*.'
+      },
+      {
+        name: 'Umroh Akbar Lebaran 2026 by Nakhla Tour',
+        duration: '9 Hari',
+        price: 'Mulai dari Rp29,9 Juta',
+        features: ['Umroh Akbar Bersama Owner', 'Hotel Dekat Masjid', 'Penerbangan Emirates', 'Full Board', 'Travel Nakhla Tour'],
+        isPopular: false,
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7345/medium__68__Ebanner_Umrah_Akbar_22_Maret_2026__3_.png',
+        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
+      }
+    ]
   }
 };
