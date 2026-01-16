@@ -22,14 +22,14 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
           <div>
             <a href="/">
-              <img 
-                src="https://storage.googleapis.com/muslimpergi/uploads/site/logo2/2/medium_logo-kotanabi-umroh-online-terpercaya.webp" 
-                alt="KotaNabi Logo" 
-                className="h-12" 
+              <img
+                src="/assets/logo-kotanabi-umroh-online-terpercaya.webp"
+                alt="KotaNabi Logo"
+                className="h-12"
               />
             </a>
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center">
             {navLinks.map(link => (
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </header>
-      
+
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-white z-50 flex flex-col items-center justify-center md:hidden">
