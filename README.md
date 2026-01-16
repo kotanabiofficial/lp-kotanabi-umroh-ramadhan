@@ -30,8 +30,18 @@ bun run build
 ```
 
 ### Deploy
+
+#### GitHub Pages
 Push to the `main` branch to trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
 Ensure your GitHub repository settings have Pages enabled with Source set to "GitHub Actions".
+
+#### Cloudflare Pages
+Run this command.
+
+```bash
+bunx wrangler pages project create lp-kn-cf-pages --production-branch main
+bunx wrangler pages deploy ./dist
+```
 
 ## Project Structure
 
