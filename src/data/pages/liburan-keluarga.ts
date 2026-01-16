@@ -93,7 +93,7 @@ export const liburanKeluargaData: LandingPageData = {
         price: 'Mulai dari Rp26,9 Jt',
         features: ['Wisata Halal Hainan', 'Hotel Bintang 3/4', 'Hainan Airlines', 'Makan Fullboard', 'Travel AQU Tour'],
         isPopular: true,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7935/medium_UMROH_SYAWWAL_2026__3___2_.png',
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10504/umroh-syawal-plus-hainain-aqutour_22-maret-2026.webp',
         waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Syawal 2026 Plus Hainan 11 Hari*.'
       },
       {
@@ -102,7 +102,7 @@ export const liburanKeluargaData: LandingPageData = {
         price: 'Mulai dari Rp29,9 Jt',
         features: ['Umroh Akbar Bersama Owner', 'Hotel Dekat Masjid', 'Penerbangan Emirates', 'Makan Full Board', 'Travel Nakhla Tour'],
         isPopular: false,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/listing/pict/7345/medium__68__Ebanner_Umrah_Akbar_22_Maret_2026__3_.png',
+        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10594/umroh-akbar-lebaran-2026_nakhla-tour.webp',
         waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Akbar Saqeefa 22 Maret 2026 by Nakhla Tour*.'
       },
       {
