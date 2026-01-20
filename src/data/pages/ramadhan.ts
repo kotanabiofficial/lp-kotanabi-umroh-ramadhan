@@ -79,24 +79,6 @@ export const ramadhanData: LandingPageData = {
     subtitle: "Yuk bergabung di program Umroh Ramadhan 2026 - Raih Pahala dan Keberkahan di Tanah Suci. Pilih paket yang sesuai dengan kebutuhan ibadah Anda di bulan suci!",
     items: [
       {
-        name: 'Umroh Awal Ramadhan',
-        duration: '9 Hari',
-        price: 'Mulai dari Rp28 Jt-an',
-        features: ['Hotel Bintang 4 (5 Menit Jalan Kaki)', 'Raih Pahala Umroh Ramadhan', 'Free Tahallul', 'Free Ayam Albaik', 'Travel AQU Tour'],
-        isPopular: false,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10125/aqutour-umroh-awal-ramadhan-2026.webp',
-        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-      },
-      {
-        name: 'Umroh Full Ramadhan',
-        duration: '35 Hari',
-        price: 'Mulai dari Rp33 Jt-an',
-        features: ['Program Full Ramadhan HEMAT', 'Hotel Bintang 3 Setaraf', 'Shalat Ied di Mekah', 'Lebaran di Mekah', 'Travel AQU Tour'],
-        isPopular: true,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10511/umroh-full-ramadhan-2026_aqu-tour.webp',
-        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Full Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-      },
-      {
         name: 'Umroh I\'tikaf Ramadhan',
         duration: '16 Hari',
         price: 'Mulai dari Rp34 Jt-an',
@@ -104,15 +86,6 @@ export const ramadhanData: LandingPageData = {
         isPopular: false,
         image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10124/aqutour-umroh-itikaf-ramadhan-2026.webp',
         waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh I\'tikaf Ramadhan 2026 by Aqu Tour*. Mohon informasi lengkapnya.'
-      },
-      {
-        name: 'Umroh Awal Ramadhan 1447H by Jana Madinah Wisata',
-        duration: '12 Hari',
-        price: 'Mulai dari Rp32,9 Jt',
-        features: ['Akhir Sya\'ban - Awal Ramadhan', 'Hotel Bintang 3 Setaraf', 'Saudia Airline / Setaraf', 'Full Board', 'Travel Jana Madinah Wisata'],
-        isPopular: false,
-        image: 'https://storage.googleapis.com/muslimpergi/uploads/gallery/pict/10513/umroh-akhir-syaban-awal-ramadhan-1447_jana-madinah-wisata.webp',
-        waMessage: 'Assalamualaikum, saya tertarik dengan paket *Umroh Awal Ramadhan 1447H by Jana Madinah Wisata*.'
       },
       {
         name: 'Umroh Itikaf Ramadhan by Jana Madinah Wisata',
